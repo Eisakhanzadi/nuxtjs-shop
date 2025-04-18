@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003" xml:space="preserve" width="1.09999in" height="0.199992in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 1099.99 199.99">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003" xml:space="preserve" width="1.2in" height="0.2in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 1099.99 199.99">
     <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
       <path class="fil0" d="M982.85 43.76c20.24,-10.74 31.52,-3.54 43.47,14.42l42.8 62.77c5.97,9.05 6.31,8.77 6.31,20.2 0,8.91 -6.97,20.2 -14.93,20.88 -1.99,-7.89 -50.77,-76.58 -58.07,-87.87l-19.58 -30.4zm-75.32 73.04c12.28,0 24.56,0 37.16,0 15.93,0 23.23,-2.24 32.52,5.58 15.93,13.06 4.65,43.12 -17.59,43.12l-73 0c-14.6,0 -24.22,-12.04 -24.22,-28.97 0,-7.07 2.99,-10.41 5.97,-14.83 8.3,-12.44 45.46,-68.55 51.43,-74.74 10.95,-10.81 22.9,-9.72 35.17,-3.2 -1.33,6.19 -13.27,21.08 -17.59,27.61l-18.25 26.86c-2.65,4.08 -10.62,14.28 -11.61,18.56zm-66.04 18.57c0,14.15 2.32,25.44 11.94,35.64 4.98,5.51 16.26,14.21 26.22,14.21l86.94 0c17.59,0 38.16,-22.99 38.16,-39.44 0,-15.44 0.67,-29.58 -17.92,-42.23 -12.94,-8.91 -19.57,-7.62 -39.82,-7.62 1.66,-6.73 19.25,-27.2 20.91,-33.59l2.32 0c1,4.96 46.79,70.52 51.43,76.98l21.24 31.01c7.3,11.43 6.64,14.89 15.26,14.89 17.59,0 38.16,-23.33 38.16,-40.6 0,-21.22 -2.32,-26.11 -16.59,-44.88 -13.93,-18.77 -39.15,-63.45 -55.74,-75.01 -11.61,-7.89 -30.86,-8.43 -43.8,-3.2 -20.24,8.3 -2.32,8.3 -22.57,0 -20.57,-8.37 -43.8,-1.97 -56.74,15.64 -13.61,18.5 -28.87,44.07 -42.47,61.95 -3.65,5.04 -7.3,10.34 -10.62,15.85 -3.32,5.24 -6.31,12.58 -6.31,20.4z"/>
@@ -21,6 +21,9 @@
 </template>
 
 <style scoped>
+svg{
+  scale: 1.5;
+}
 .fil0 {fill:#121314}
 .fil1 {fill:#3C3E40}
 </style>
