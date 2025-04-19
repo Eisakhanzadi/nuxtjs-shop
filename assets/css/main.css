@@ -4,4 +4,7 @@
 
 :root{
     --bg-primary : #f5f5f5;
+    --color-444:#444;
+    --color-gray:rgba(0,0,0,0.5);
+    --soft-green:#d2ef9a,
 }
