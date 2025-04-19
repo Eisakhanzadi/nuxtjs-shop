@@ -7,7 +7,7 @@ console.log(menus)
 </script>
 
 <template>
-  <header class="bg-primary">
+  <header class="bg-white">
     <section class=" max-w-screen-xl w-full md:w-10/12 mx-auto md:px-10 py-4 relative">
       <div v-if="menus?.length" class="flex items-center justify-between">
         <div>
@@ -23,7 +23,7 @@ console.log(menus)
                   <span >{{ item.title }}</span>
                   <span class="relative top-0.5" v-if="item.children?.length"><icons-angle/></span>
                 </nuxt-link>
-                <div v-if="item.children?.length" class="mega-menu-container absolute top-20 right-0 w-full z-50 ">
+                <div v-if="item.children?.length" class="mega-menu-container absolute top-20 right-0 w-full z-50  ">
                   <megaMenu class="" :menus="item.children"/>
                 </div>
               </li>
@@ -80,7 +80,5 @@ nav{
     }
   }
 }
-header {
-  background: #f5f5f5;
-}
+
 </style>

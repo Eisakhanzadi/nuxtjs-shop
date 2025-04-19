@@ -8,7 +8,7 @@ const {menus} = defineProps({
 </script>
 
 <template>
-<div class="bg-white z-50 mega-menu p-5 rounded-xl" v-if="menus?.length">
+<div class="bg-white z-50 mega-menu p-5 rounded-xl shadow-lg" v-if="menus?.length">
   <div class="h-full">
     <mega-menu-create-menu-items :menus="menus"/>
   </div>
@@ -18,6 +18,6 @@ const {menus} = defineProps({
 <style scoped>
 .mega-menu{
   height: 80vh;
-
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
 }
 </style>
