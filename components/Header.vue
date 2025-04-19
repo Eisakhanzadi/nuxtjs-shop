@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Logo from "~/components/icons/Logo.vue";
-
-const {data} = await useFetch('https://api-atlasmode.alochand.com/v1/all/menus/header')
-const menus = ref(data.value.data.menus)
+const {public:{baseUrl}} = useRuntimeConfig()
+const {data} = await useFetch(`${baseUrl}/header`)
+const menus = ref(data.value.menus)
 console.log(menus)
 </script>
 
