@@ -8,7 +8,7 @@
       :breakpoints=breakpoints
       class="mySwiper"
   >
-    <swiper-slide v-for="item in 50" :key="item">Slide {{ item }}</swiper-slide>
+    <slot/>
   </swiper>
 </template>
 <script setup>
@@ -22,15 +22,15 @@ const {pagination} = defineProps({
         default: {
         '640': {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 10,
         },
         '768': {
           slidesPerView: 4,
-          spaceBetween: 40,
+          spaceBetween: 15,
         },
         '1024': {
           slidesPerView: 5,
-          spaceBetween: 50,
+          spaceBetween: 20,
         },
       }
     },
