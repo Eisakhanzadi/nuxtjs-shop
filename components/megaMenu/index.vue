@@ -17,7 +17,7 @@ const {menus} = defineProps({
 
 <style scoped>
 .mega-menu{
-  height: 80vh;
   box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  height: 650px;
 }
 </style>
