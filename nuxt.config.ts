@@ -11,7 +11,12 @@ export default defineNuxtConfig({
         }
     },
     css: ['~/assets/css/main.css'],
-    modules: ['@nuxtjs/tailwindcss'],
+    modules: ['@nuxtjs/tailwindcss' , '@pinia/nuxt'],
+    runtimeConfig:{
+      public:{
+          baseUrl:'http://localhost:8080/',
+      }
+    },
     postcss: {
         plugins: {
             tailwindcss: {},
