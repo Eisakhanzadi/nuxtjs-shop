@@ -49,6 +49,38 @@ const categoriesImages = [
     img: cat5
   },
 ]
+const productsImages = [
+  {
+    id: 1,
+    img_one: p1,
+    img_two: p11,
+  },
+  {
+    id: 2,
+    img_one: p2,
+    img_two: p22,
+  },
+  {
+    id: 3,
+    img_one: p3,
+    img_two: p33,
+  },
+  {
+    id: 4,
+    img_one: p4,
+    img_two: p44,
+  },
+  {
+    id: 5,
+    img_one: p5,
+    img_two: p55,
+  },
+  {
+    id: 6,
+    img_one: p6,
+    img_two: p66,
+  },
+]
 const weblogsImages = [
   {
     id: 1,
@@ -102,8 +134,11 @@ const productImages = [
 const {data:categories} = await useFetch(`${baseUrl}categories `)
 const createCategories = computed(() => categories.value?.filter(category => category.children?.length > 0))
 const {data:posts} = await useFetch(`${baseUrl}posts `)
-console.log(posts.value)
 const createDesktopPosts = computed(() =>posts.value?.posts?.data )
+const {data:products} = await useFetch(`${baseUrl}products `)
+const createDesktopNewProducts = computed(() =>products.value?.new_products?.response?.new_products )
+const createDesktopMostSales = computed(() =>products.value.most_sales.response.mostSales )
+console.log(createDesktopMostSales.value)
 const topSliderConfig = {
   '300': {
     slidesPerView: 1,
@@ -131,7 +166,7 @@ const weblogConfig = {
 </script>
 
 <template>
-  <section v-if="createCategories" class="max-w-screen-xl w-full md:w-10/12 mx-auto md:px-10 flex flex-col gap-y-16 py-10">
+  <section v-if="createCategories" class="max-w-screen-xl w-[95%] md:w-10/12 mx-auto md:px-10 flex flex-col gap-y-16 py-10">
     <div>
       <slider :breakpoints="topSliderConfig">
         <swiper-slide>
@@ -146,8 +181,24 @@ const weblogConfig = {
         </swiper-slide>
       </slider>
     </div>
+    <div v-if="createDesktopNewProducts" >
+      <slider-title class="mb-7" :data="{title:'پرفروش ترین ها' , url:'/products?most_sales'}" />
+      <slider :breakpoints="weblogConfig" >
+        <swiper-slide v-for="(item,index) in createDesktopNewProducts.slice(0,4)" :key="item.id">
+          <card-product :product="item"/>
+        </swiper-slide>
+      </slider>
+    </div>
+    <div v-if="createDesktopMostSales" >
+      <slider-title class="mb-10" :data="{title:'جدیدترین ها' , url:'/products?new_products'}" />
+      <slider :breakpoints="weblogConfig" >
+        <swiper-slide v-for="(item,index) in createDesktopMostSales.slice(0,4)" :key="item.id">
+          <card-product :product="item"/>
+        </swiper-slide>
+      </slider>
+    </div>
     <div v-if="createDesktopPosts" >
-      <slider-title class="mb-7" :data="{title:'پست ها' , url:'/weblog-list'}" />
+      <slider-title class="mb-10" :data="{title:'پست ها' , url:'/weblog-list'}" />
       <slider :breakpoints="weblogConfig" >
         <swiper-slide v-for="(item,index) in createDesktopPosts.slice(0,4)" :key="item.id">
           <card-weblog :images="weblogsImages[index]" :data="item"/>

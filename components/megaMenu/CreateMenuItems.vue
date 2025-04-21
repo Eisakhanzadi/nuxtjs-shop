@@ -13,7 +13,7 @@ const {menus , children} = defineProps({
 </script>
 
 <template>
-  <ul v-if="menus.length" class="flex flex-col flex-wrap h-full  " :class="{'gap-y-4 px-2 pt-3':children , 'gap-y-4':!children}" >
+  <ul v-if="menus?.length" class="flex flex-col flex-wrap h-full  " :class="{'gap-y-4 px-2 pt-3':children , 'gap-y-4':!children}" >
     <li v-for="menu in menus" :key="menu?.id" >
       <nuxtLink class="flex gap-1 items-baseline w-fit " :to="`/categories/${menu.id}/${menu.title}`" :class="{'border border-r-[3px] border-l-0 border-y-0 border-solid border-black pr-3':!children}">
         <span :class="{'text-slate-600':children , 'text-slate-900':!children}" v-if="menu">{{menu.title}}</span>

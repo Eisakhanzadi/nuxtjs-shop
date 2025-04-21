@@ -8,15 +8,16 @@ console.log(menus)
 
 <template>
   <header class="bg-white">
-    <section class=" max-w-screen-xl w-full md:w-10/12 mx-auto md:px-10 py-4 relative">
+    <section class=" max-w-screen-xl w-[95%] md:w-10/12 mx-auto md:px-10 py-4 relative">
       <div v-if="menus?.length" class="flex items-center justify-between">
         <div>
           <nuxt-link to="/">
-            <logo/>
+            <h1 class="font-bold text-lg"> برند شما</h1>
+<!--            <logo/>-->
           </nuxt-link>
         </div>
         <div>
-          <nav>
+          <nav class=" hidden lg:block">
             <ul class="flex gap-3">
               <li v-for="item in menus" :key="item.name">
                 <nuxt-link  class="flex gap-1 items-baseline py-3 " :to="`/categories/${item.id}/${item.title}`">
