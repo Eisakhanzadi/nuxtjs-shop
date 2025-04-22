@@ -14,7 +14,7 @@ console.table(product)
 
 <template>
   <article v-if="Object.keys(product).length > 0" class="">
-    <nuxt-link>
+    <nuxt-link :to="`/product-detail/${product.id}/${product.title}`">
       <div>
         <figure>
           <img class="hidden lg:inline-block" :src="product?.major_image?.conversions?.lg" :alt="product.title">
