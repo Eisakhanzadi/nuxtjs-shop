@@ -9,5 +9,6 @@
 <style scoped>
 .app{
   background: var(--bg-primary);
+  min-height: 100vh;
 }
 </style>
