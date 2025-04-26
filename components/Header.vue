@@ -1,13 +1,29 @@
 <script setup lang="ts">
 import Logo from "~/components/icons/Logo.vue";
+import {process} from "std-env";
 const {public:{baseUrl}} = useRuntimeConfig()
 const {data} = await useFetch(`${baseUrl}/header`)
 const menus = ref(data.value.menus)
+const header = ref<HTMLHeadElement>()
 console.log(menus)
+  if (process.client) {
+    window.addEventListener("scroll", () => {
+      let scrollTop = window.scrollY;
+      if (scrollTop > 250) {
+        if (!header.value?.classList.contains('active-menu')) {
+          header.value?.classList.add('active-menu');
+        }
+      } else {
+        if (header.value?.classList.contains('active-menu')) {
+          header.value?.classList.remove('active-menu');
+        }
+      }
+    })
+  }
 </script>
 
 <template>
-  <header class="bg-white">
+  <header ref="header" class="bg-white">
     <section class=" max-w-screen-xl w-[95%] md:w-10/12 mx-auto md:px-10 py-4 relative">
       <div v-if="menus?.length" class="flex items-center justify-between">
         <div>
@@ -81,5 +97,19 @@ nav{
     }
   }
 }
-
+.active-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  animation: menu 1s 1 forwards ease ;
+  z-index: 100;
+}
+@keyframes menu {
+  from{
+    transform: translateY(-100%);
+  }to{
+     transform: translateY(0%);
+   }
+}
 </style>
