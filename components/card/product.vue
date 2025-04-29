@@ -9,7 +9,6 @@ const {product, image} = defineProps({
   }
 
 })
-console.table(product)
 </script>
 
 <template>
