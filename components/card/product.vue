@@ -18,8 +18,7 @@ console.table(product)
       <div>
         <figure>
           <img class="hidden lg:inline-block" :src="product?.major_image?.conversions?.lg" :alt="product.title">
-          <img class="hidden md:inline-block lg:hidden" :src="product?.major_image?.conversions?.md" :alt="product.title">
-          <img class=" md:hidden" :src="product?.major_image?.conversions?.sm" :alt="product.title">
+          <img class="inline-block lg:hidden" :src="product?.major_image?.conversions?.md" :alt="product.title">
         </figure>
       </div>
       <div>
