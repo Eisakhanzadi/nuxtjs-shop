@@ -147,18 +147,18 @@ const topSliderConfig = {
 }
 const weblogConfig = {
   '300': {
-    slidesPerView: 1,
+    slidesPerView: 1.5,
+    spaceBetween: 15,
+  },
+  '400': {
+    slidesPerView: 2.3,
     spaceBetween: 10,
   },
-  '640': {
-    slidesPerView: 2,
-    spaceBetween: 10,
-  },
-  '768': {
+  '600': {
     slidesPerView: 3,
     spaceBetween: 15,
   },
-  '1024': {
+  '900': {
     slidesPerView: 4,
     spaceBetween: 20,
   },
@@ -192,7 +192,7 @@ const weblogConfig = {
     <div v-if="createDesktopMostSales" >
       <slider-title class="mb-10" :data="{title:'جدیدترین ها' , url:'/products?new_products'}" />
       <slider :breakpoints="weblogConfig" >
-        <swiper-slide v-for="(item,index) in createDesktopMostSales.slice(0,4)" :key="item.id">
+        <swiper-slide v-for="(item) in createDesktopMostSales.slice(0,4)" :key="item.id">
           <card-product :product="item"/>
         </swiper-slide>
       </slider>
@@ -200,8 +200,8 @@ const weblogConfig = {
     <div v-if="createDesktopPosts" >
       <slider-title class="mb-10" :data="{title:'پست ها' , url:'/weblog-list'}" />
       <slider :breakpoints="weblogConfig" >
-        <swiper-slide v-for="(item,index) in createDesktopPosts.slice(0,4)" :key="item.id">
-          <card-weblog :images="weblogsImages[index]" :data="item"/>
+        <swiper-slide v-for="(item) in createDesktopPosts.slice(0,4)" :key="item.id">
+          <card-weblog  :data="item"/>
         </swiper-slide>
       </slider>
     </div>
