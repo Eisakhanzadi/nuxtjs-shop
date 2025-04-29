@@ -4966,5 +4966,3007 @@
       "warnings": [],
       "varieties": []
     }
+  },
+  "all_products": {
+    "products": {
+      "current_page": 1,
+      "data": [
+        {
+          "id": 5147,
+          "title": "تاپ کبریتی حلقه ای 3890",
+          "slug": "تاپ-کبریتی-حلقه-ای-3890",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 20,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-12-18",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-12-02 14:38:13",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 29147,
+              "type": "image",
+              "name": "product-5147.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/product-5147.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/conversions/product-5147-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/conversions/product-5147-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/conversions/product-5147-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 29148,
+              "type": "image",
+              "name": "product-5147.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/072476ba-4a02-46fe-b67c-ceb45ccf95b7/product-5147.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/072476ba-4a02-46fe-b67c-ceb45ccf95b7/conversions/product-5147-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/072476ba-4a02-46fe-b67c-ceb45ccf95b7/conversions/product-5147-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/072476ba-4a02-46fe-b67c-ceb45ccf95b7/conversions/product-5147-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 29149,
+              "type": "image",
+              "name": "product-5147.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/42d7d434-6155-480b-ba60-5a2f4ce22ceb/product-5147.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/42d7d434-6155-480b-ba60-5a2f4ce22ceb/conversions/product-5147-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/42d7d434-6155-480b-ba60-5a2f4ce22ceb/conversions/product-5147-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/42d7d434-6155-480b-ba60-5a2f4ce22ceb/conversions/product-5147-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 29150,
+              "type": "image",
+              "name": "product-5147.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/c4baf2f6-4829-4c04-8cf1-077d076f0960/product-5147.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/c4baf2f6-4829-4c04-8cf1-077d076f0960/conversions/product-5147-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/c4baf2f6-4829-4c04-8cf1-077d076f0960/conversions/product-5147-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/c4baf2f6-4829-4c04-8cf1-077d076f0960/conversions/product-5147-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 159200,
+          "rate": "0.0",
+          "major_discount_amount": 39800,
+          "major_image": {
+            "id": 29147,
+            "type": "image",
+            "name": "product-5147.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/product-5147.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/conversions/product-5147-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/conversions/product-5147-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/04b49936-2fa8-4a69-8384-60c490fd82a2/conversions/product-5147-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 20,
+            "discount_price": 39800,
+            "amount": 159200
+          },
+          "views_count": 1966,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 5127,
+          "title": "تاپ بافت چین دار 3862",
+          "slug": "تاپ-بافت-چین-دار-3862",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 30,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-12-01",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-12-01 10:24:12",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 29173,
+              "type": "image",
+              "name": "product-5127.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/product-5127.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/conversions/product-5127-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/conversions/product-5127-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/conversions/product-5127-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 29174,
+              "type": "image",
+              "name": "product-5127.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/f72c5312-c2cb-4275-9824-7d22091fe457/product-5127.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/f72c5312-c2cb-4275-9824-7d22091fe457/conversions/product-5127-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/f72c5312-c2cb-4275-9824-7d22091fe457/conversions/product-5127-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/f72c5312-c2cb-4275-9824-7d22091fe457/conversions/product-5127-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 29175,
+              "type": "image",
+              "name": "product-5127.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/4ba175ef-e3cd-4691-9a9a-0a5e17c55064/product-5127.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/4ba175ef-e3cd-4691-9a9a-0a5e17c55064/conversions/product-5127-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/4ba175ef-e3cd-4691-9a9a-0a5e17c55064/conversions/product-5127-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/4ba175ef-e3cd-4691-9a9a-0a5e17c55064/conversions/product-5127-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 29176,
+              "type": "image",
+              "name": "product-5127.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2dba615a-799b-4c2d-aba0-6cbfcf249e77/product-5127.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2dba615a-799b-4c2d-aba0-6cbfcf249e77/conversions/product-5127-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2dba615a-799b-4c2d-aba0-6cbfcf249e77/conversions/product-5127-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2dba615a-799b-4c2d-aba0-6cbfcf249e77/conversions/product-5127-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 185500,
+          "rate": "0.0",
+          "major_discount_amount": 79500,
+          "major_image": {
+            "id": 29173,
+            "type": "image",
+            "name": "product-5127.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/product-5127.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/conversions/product-5127-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/conversions/product-5127-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/eda8a838-6669-4b7f-9378-679d2dc07923/conversions/product-5127-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 30,
+            "discount_price": 79500,
+            "amount": 185500
+          },
+          "views_count": 1611,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 5055,
+          "title": "تاپ خامه دوزی  3821",
+          "slug": "تاپ-خامه-دوزی-3821",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 20,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-11-10",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-11-07 14:22:20",
+          "updated_at": "2025-04-23 11:37:12",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 28757,
+              "type": "image",
+              "name": "product-5055.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/product-5055.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/conversions/product-5055-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/conversions/product-5055-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/conversions/product-5055-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28758,
+              "type": "image",
+              "name": "product-5055.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/75c8cac9-dac8-4c2e-bbcb-e2fce3dd98ea/product-5055.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/75c8cac9-dac8-4c2e-bbcb-e2fce3dd98ea/conversions/product-5055-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/75c8cac9-dac8-4c2e-bbcb-e2fce3dd98ea/conversions/product-5055-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/75c8cac9-dac8-4c2e-bbcb-e2fce3dd98ea/conversions/product-5055-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28759,
+              "type": "image",
+              "name": "product-5055.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/ab482783-85db-48f1-8a64-7f4cdf193c1a/product-5055.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/ab482783-85db-48f1-8a64-7f4cdf193c1a/conversions/product-5055-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/ab482783-85db-48f1-8a64-7f4cdf193c1a/conversions/product-5055-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/ab482783-85db-48f1-8a64-7f4cdf193c1a/conversions/product-5055-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 183200,
+          "rate": "0.0",
+          "major_discount_amount": 45800,
+          "major_image": {
+            "id": 28757,
+            "type": "image",
+            "name": "product-5055.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/product-5055.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/conversions/product-5055-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/conversions/product-5055-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/d5c31869-49fb-4138-8698-2cddca04a033/conversions/product-5055-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 20,
+            "discount_price": 45800,
+            "amount": 183200
+          },
+          "views_count": 975,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4910,
+          "title": "لگ شلوارک کبریتی 3672",
+          "slug": "شلوارک-کبریتی-3672",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 20,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-10-23",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-10-23 17:55:09",
+          "updated_at": "2025-04-08 12:08:23",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 28346,
+              "type": "image",
+              "name": "product-4910.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/product-4910.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/conversions/product-4910-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/conversions/product-4910-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/conversions/product-4910-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28347,
+              "type": "image",
+              "name": "product-4910.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/264d75ff-1ea3-405e-9701-c67f63a4bf19/product-4910.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/264d75ff-1ea3-405e-9701-c67f63a4bf19/conversions/product-4910-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/264d75ff-1ea3-405e-9701-c67f63a4bf19/conversions/product-4910-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/264d75ff-1ea3-405e-9701-c67f63a4bf19/conversions/product-4910-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28348,
+              "type": "image",
+              "name": "product-4910.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/29b316ca-e493-483a-b841-ff9da4b81c1a/product-4910.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/29b316ca-e493-483a-b841-ff9da4b81c1a/conversions/product-4910-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/29b316ca-e493-483a-b841-ff9da4b81c1a/conversions/product-4910-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/29b316ca-e493-483a-b841-ff9da4b81c1a/conversions/product-4910-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28349,
+              "type": "image",
+              "name": "product-4910.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/56576f86-94f2-408d-8854-8fa24f09b510/product-4910.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/56576f86-94f2-408d-8854-8fa24f09b510/conversions/product-4910-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/56576f86-94f2-408d-8854-8fa24f09b510/conversions/product-4910-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/56576f86-94f2-408d-8854-8fa24f09b510/conversions/product-4910-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 207200,
+          "rate": "0.0",
+          "major_discount_amount": 51800,
+          "major_image": {
+            "id": 28346,
+            "type": "image",
+            "name": "product-4910.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/product-4910.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/conversions/product-4910-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/conversions/product-4910-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/82979bd2-63f8-4998-bc17-05b7744479a8/conversions/product-4910-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 20,
+            "discount_price": 51800,
+            "amount": 207200
+          },
+          "views_count": 1191,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4858,
+          "title": "شلوارک جیب دار 3737",
+          "slug": "شلوارک-جیب-دار-3737",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-10-14",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-10-14 21:09:11",
+          "updated_at": "2025-04-07 13:04:41",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 28033,
+              "type": "image",
+              "name": "product-4858.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/product-4858.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/conversions/product-4858-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/conversions/product-4858-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/conversions/product-4858-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28034,
+              "type": "image",
+              "name": "product-4858.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/a64b911b-6333-49cb-938a-4bcfb2e02c85/product-4858.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/a64b911b-6333-49cb-938a-4bcfb2e02c85/conversions/product-4858-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/a64b911b-6333-49cb-938a-4bcfb2e02c85/conversions/product-4858-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/a64b911b-6333-49cb-938a-4bcfb2e02c85/conversions/product-4858-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28035,
+              "type": "image",
+              "name": "product-4858.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/542387d0-758a-42a5-adbb-b0bf436db768/product-4858.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/542387d0-758a-42a5-adbb-b0bf436db768/conversions/product-4858-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/542387d0-758a-42a5-adbb-b0bf436db768/conversions/product-4858-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/542387d0-758a-42a5-adbb-b0bf436db768/conversions/product-4858-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28036,
+              "type": "image",
+              "name": "product-4858.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/1019de06-54e9-4c3e-9a17-16c3f385a4a8/product-4858.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/1019de06-54e9-4c3e-9a17-16c3f385a4a8/conversions/product-4858-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/1019de06-54e9-4c3e-9a17-16c3f385a4a8/conversions/product-4858-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/1019de06-54e9-4c3e-9a17-16c3f385a4a8/conversions/product-4858-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28037,
+              "type": "image",
+              "name": "product-4858.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/4545bf93-046a-4d86-9dc3-9bc15eea2102/product-4858.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/4545bf93-046a-4d86-9dc3-9bc15eea2102/conversions/product-4858-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/4545bf93-046a-4d86-9dc3-9bc15eea2102/conversions/product-4858-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/4545bf93-046a-4d86-9dc3-9bc15eea2102/conversions/product-4858-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28038,
+              "type": "image",
+              "name": "product-4858.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/108c37fa-7c58-4ec5-8d90-3856270c3323/product-4858.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/108c37fa-7c58-4ec5-8d90-3856270c3323/conversions/product-4858-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/108c37fa-7c58-4ec5-8d90-3856270c3323/conversions/product-4858-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/108c37fa-7c58-4ec5-8d90-3856270c3323/conversions/product-4858-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 149500,
+          "rate": "0.0",
+          "major_discount_amount": 149500,
+          "major_image": {
+            "id": 28033,
+            "type": "image",
+            "name": "product-4858.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/product-4858.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/conversions/product-4858-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/conversions/product-4858-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/09a3ba6f-b6ac-4950-b8ac-94fe09138d6a/conversions/product-4858-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 149500,
+            "amount": 149500
+          },
+          "views_count": 703,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4807,
+          "title": "تاپ بافت 3627",
+          "slug": "تاپ-بافت-3627",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-10-15",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-10-12 18:22:44",
+          "updated_at": "2025-04-07 13:34:22",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27805,
+              "type": "image",
+              "name": "product-4807.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/product-4807.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/conversions/product-4807-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/conversions/product-4807-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/conversions/product-4807-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27806,
+              "type": "image",
+              "name": "product-4807.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/04e5ff16-735e-4a21-9823-a7e9b71c2d7d/product-4807.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/04e5ff16-735e-4a21-9823-a7e9b71c2d7d/conversions/product-4807-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/04e5ff16-735e-4a21-9823-a7e9b71c2d7d/conversions/product-4807-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/04e5ff16-735e-4a21-9823-a7e9b71c2d7d/conversions/product-4807-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27807,
+              "type": "image",
+              "name": "product-4807.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/5d04114e-e81f-4e14-ad40-23e4a7e31d78/product-4807.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/5d04114e-e81f-4e14-ad40-23e4a7e31d78/conversions/product-4807-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/5d04114e-e81f-4e14-ad40-23e4a7e31d78/conversions/product-4807-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/5d04114e-e81f-4e14-ad40-23e4a7e31d78/conversions/product-4807-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27808,
+              "type": "image",
+              "name": "product-4807.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/dc938e54-1d24-47b8-ba06-cf0bdec690d5/product-4807.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/dc938e54-1d24-47b8-ba06-cf0bdec690d5/conversions/product-4807-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/dc938e54-1d24-47b8-ba06-cf0bdec690d5/conversions/product-4807-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/dc938e54-1d24-47b8-ba06-cf0bdec690d5/conversions/product-4807-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27809,
+              "type": "image",
+              "name": "product-4807.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/ed7ca23c-a57b-4c2f-92c7-53dacf6660e7/product-4807.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/ed7ca23c-a57b-4c2f-92c7-53dacf6660e7/conversions/product-4807-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/ed7ca23c-a57b-4c2f-92c7-53dacf6660e7/conversions/product-4807-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/ed7ca23c-a57b-4c2f-92c7-53dacf6660e7/conversions/product-4807-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 149500,
+          "rate": "0.0",
+          "major_discount_amount": 149500,
+          "major_image": {
+            "id": 27805,
+            "type": "image",
+            "name": "product-4807.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/product-4807.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/conversions/product-4807-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/conversions/product-4807-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/884623a0-28ef-4df7-8b8c-16ffcadcd880/conversions/product-4807-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 149500,
+            "amount": 149500
+          },
+          "views_count": 750,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4787,
+          "title": "تاپ  کراپ جلو دکمه  3697",
+          "slug": "تاپ-کراپ-جلو-دکمه-3697",
+          "short_description": null,
+          "discount_type": null,
+          "discount": null,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-10-13",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-10-09 17:32:15",
+          "updated_at": "2025-03-02 15:57:04",
+          "discount_until": null,
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27825,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/conversions/product-4787-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27826,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/9fd30914-9230-48df-8805-a7248de903e7/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/9fd30914-9230-48df-8805-a7248de903e7/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/9fd30914-9230-48df-8805-a7248de903e7/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/9fd30914-9230-48df-8805-a7248de903e7/conversions/product-4787-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27827,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/039f21a7-29f5-4faf-a836-e02072da917b/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/039f21a7-29f5-4faf-a836-e02072da917b/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/039f21a7-29f5-4faf-a836-e02072da917b/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/039f21a7-29f5-4faf-a836-e02072da917b/conversions/product-4787-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27828,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/55e5d477-0709-45d4-9b1d-ed42461230a2/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/55e5d477-0709-45d4-9b1d-ed42461230a2/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/55e5d477-0709-45d4-9b1d-ed42461230a2/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/55e5d477-0709-45d4-9b1d-ed42461230a2/conversions/product-4787-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27829,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/28ab6cb0-c5a9-46b3-9903-e40bd865c771/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/28ab6cb0-c5a9-46b3-9903-e40bd865c771/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/28ab6cb0-c5a9-46b3-9903-e40bd865c771/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/28ab6cb0-c5a9-46b3-9903-e40bd865c771/conversions/product-4787-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 28058,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/d1b046fe-ea54-4b36-a9de-8faa66d8ace1/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/d1b046fe-ea54-4b36-a9de-8faa66d8ace1/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/d1b046fe-ea54-4b36-a9de-8faa66d8ace1/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/d1b046fe-ea54-4b36-a9de-8faa66d8ace1/conversions/product-4787-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27830,
+              "type": "image",
+              "name": "product-4787.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/59bfd062-d246-459e-9a1d-82e82f788294/product-4787.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/59bfd062-d246-459e-9a1d-82e82f788294/conversions/product-4787-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/59bfd062-d246-459e-9a1d-82e82f788294/conversions/product-4787-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/59bfd062-d246-459e-9a1d-82e82f788294/conversions/product-4787-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 210000,
+          "rate": "0.0",
+          "major_discount_amount": 0,
+          "major_image": {
+            "id": 27825,
+            "type": "image",
+            "name": "product-4787.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/product-4787.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/conversions/product-4787-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/conversions/product-4787-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/9e19d0d0-d643-4d0e-a852-4cab7fce8880/conversions/product-4787-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "none",
+            "discount_type": "none",
+            "discount": 0,
+            "discount_price": 0,
+            "amount": 210000
+          },
+          "views_count": 468,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4739,
+          "title": "کراپ 3685",
+          "slug": "کراپ-3685",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 20,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-10-09",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-10-08 11:35:08",
+          "updated_at": "2025-04-23 11:34:42",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27711,
+              "type": "image",
+              "name": "product-4739.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/product-4739.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/conversions/product-4739-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/conversions/product-4739-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/conversions/product-4739-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27712,
+              "type": "image",
+              "name": "product-4739.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/81c6e94b-1b55-433f-93c9-43d67a6de9c5/product-4739.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/81c6e94b-1b55-433f-93c9-43d67a6de9c5/conversions/product-4739-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/81c6e94b-1b55-433f-93c9-43d67a6de9c5/conversions/product-4739-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/81c6e94b-1b55-433f-93c9-43d67a6de9c5/conversions/product-4739-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27713,
+              "type": "image",
+              "name": "product-4739.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/77c93976-fd9e-49e1-bf19-c7da1f39efe4/product-4739.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/77c93976-fd9e-49e1-bf19-c7da1f39efe4/conversions/product-4739-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/77c93976-fd9e-49e1-bf19-c7da1f39efe4/conversions/product-4739-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/77c93976-fd9e-49e1-bf19-c7da1f39efe4/conversions/product-4739-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27714,
+              "type": "image",
+              "name": "product-4739.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/84fd699c-3877-4a0d-a062-31331b1bb9d4/product-4739.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/84fd699c-3877-4a0d-a062-31331b1bb9d4/conversions/product-4739-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/84fd699c-3877-4a0d-a062-31331b1bb9d4/conversions/product-4739-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/84fd699c-3877-4a0d-a062-31331b1bb9d4/conversions/product-4739-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 183200,
+          "rate": "0.0",
+          "major_discount_amount": 45800,
+          "major_image": {
+            "id": 27711,
+            "type": "image",
+            "name": "product-4739.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/product-4739.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/conversions/product-4739-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/conversions/product-4739-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/f7cc527f-d110-4819-a5f2-b1db524b5125/conversions/product-4739-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 20,
+            "discount_price": 45800,
+            "amount": 183200
+          },
+          "views_count": 473,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4738,
+          "title": "تاپ بلند دالبری 3696",
+          "slug": "تاپ-بلند-دالبوری-3696-edit5",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 20,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-10-08",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": "تاپ",
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-10-08 11:28:06",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27695,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27696,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/cf59805e-a954-4a3b-b0a4-28207b4acf38/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/cf59805e-a954-4a3b-b0a4-28207b4acf38/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/cf59805e-a954-4a3b-b0a4-28207b4acf38/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/cf59805e-a954-4a3b-b0a4-28207b4acf38/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27697,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/a5fcaa86-cbaa-4f71-aa79-97c7788dd5da/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/a5fcaa86-cbaa-4f71-aa79-97c7788dd5da/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/a5fcaa86-cbaa-4f71-aa79-97c7788dd5da/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/a5fcaa86-cbaa-4f71-aa79-97c7788dd5da/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27698,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/8123896b-172b-443f-a6c8-f7a5323b52c2/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/8123896b-172b-443f-a6c8-f7a5323b52c2/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/8123896b-172b-443f-a6c8-f7a5323b52c2/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/8123896b-172b-443f-a6c8-f7a5323b52c2/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27699,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/6e964b59-9ee3-42ee-b986-fbf4334c8450/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/6e964b59-9ee3-42ee-b986-fbf4334c8450/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/6e964b59-9ee3-42ee-b986-fbf4334c8450/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/6e964b59-9ee3-42ee-b986-fbf4334c8450/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27700,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/5468c0c1-d4f9-4ca5-a2d7-ff71a163dfcd/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/5468c0c1-d4f9-4ca5-a2d7-ff71a163dfcd/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/5468c0c1-d4f9-4ca5-a2d7-ff71a163dfcd/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/5468c0c1-d4f9-4ca5-a2d7-ff71a163dfcd/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27701,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/db68adae-4f62-45d8-8680-ec900ff29664/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/db68adae-4f62-45d8-8680-ec900ff29664/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/db68adae-4f62-45d8-8680-ec900ff29664/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/db68adae-4f62-45d8-8680-ec900ff29664/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27702,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/60919bdf-6cbd-469d-9c6c-8609b8372367/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/60919bdf-6cbd-469d-9c6c-8609b8372367/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/60919bdf-6cbd-469d-9c6c-8609b8372367/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/60919bdf-6cbd-469d-9c6c-8609b8372367/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27703,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/e0d0b891-c7b7-4ee0-a5e5-0732d71d9ade/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/e0d0b891-c7b7-4ee0-a5e5-0732d71d9ade/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/e0d0b891-c7b7-4ee0-a5e5-0732d71d9ade/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/e0d0b891-c7b7-4ee0-a5e5-0732d71d9ade/conversions/product-4738-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27704,
+              "type": "image",
+              "name": "product-4738.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/4ebbf7bd-948f-45fa-8273-17208f7c49dd/product-4738.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/4ebbf7bd-948f-45fa-8273-17208f7c49dd/conversions/product-4738-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/4ebbf7bd-948f-45fa-8273-17208f7c49dd/conversions/product-4738-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/4ebbf7bd-948f-45fa-8273-17208f7c49dd/conversions/product-4738-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 183200,
+          "rate": "0.0",
+          "major_discount_amount": 45800,
+          "major_image": {
+            "id": 27695,
+            "type": "image",
+            "name": "product-4738.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/product-4738.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/conversions/product-4738-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/conversions/product-4738-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/42d9c73f-f715-488a-bfab-2a84291d675c/conversions/product-4738-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 20,
+            "discount_price": 45800,
+            "amount": 183200
+          },
+          "views_count": 920,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4600,
+          "title": "کراپ بغل چاک راه راه  زنانه 3533",
+          "slug": "کراپ-3533",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-09-10",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-09-09 13:27:30",
+          "updated_at": "2025-04-23 13:49:55",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27328,
+              "type": "image",
+              "name": "product-4600.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/product-4600.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/conversions/product-4600-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/conversions/product-4600-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/conversions/product-4600-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27329,
+              "type": "image",
+              "name": "product-4600.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/9c03ee50-196d-4fa7-ab18-dbb8acfe7846/product-4600.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/9c03ee50-196d-4fa7-ab18-dbb8acfe7846/conversions/product-4600-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/9c03ee50-196d-4fa7-ab18-dbb8acfe7846/conversions/product-4600-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/9c03ee50-196d-4fa7-ab18-dbb8acfe7846/conversions/product-4600-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27330,
+              "type": "image",
+              "name": "product-4600.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/7984c05a-116a-4640-aae5-42ab67a28e58/product-4600.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/7984c05a-116a-4640-aae5-42ab67a28e58/conversions/product-4600-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/7984c05a-116a-4640-aae5-42ab67a28e58/conversions/product-4600-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/7984c05a-116a-4640-aae5-42ab67a28e58/conversions/product-4600-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27331,
+              "type": "image",
+              "name": "product-4600.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/7123b4dc-44ed-4312-a53b-a307874f50c5/product-4600.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/7123b4dc-44ed-4312-a53b-a307874f50c5/conversions/product-4600-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/7123b4dc-44ed-4312-a53b-a307874f50c5/conversions/product-4600-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/7123b4dc-44ed-4312-a53b-a307874f50c5/conversions/product-4600-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27332,
+              "type": "image",
+              "name": "product-4600.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/854292c2-dfc4-4373-bab5-b4434f729c53/product-4600.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/854292c2-dfc4-4373-bab5-b4434f729c53/conversions/product-4600-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/854292c2-dfc4-4373-bab5-b4434f729c53/conversions/product-4600-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/854292c2-dfc4-4373-bab5-b4434f729c53/conversions/product-4600-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 149500,
+          "rate": "0.0",
+          "major_discount_amount": 149500,
+          "major_image": {
+            "id": 27328,
+            "type": "image",
+            "name": "product-4600.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/product-4600.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/conversions/product-4600-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/conversions/product-4600-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/120e739f-2d35-4aa8-b39d-59236513e17e/conversions/product-4600-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 149500,
+            "amount": 149500
+          },
+          "views_count": 1039,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4597,
+          "title": "تاپ  راه راه زنانه 3531",
+          "slug": "تاپ-3531",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-09-03",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-09-01 14:59:37",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27318,
+              "type": "image",
+              "name": "product-4597.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/product-4597.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/conversions/product-4597-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/conversions/product-4597-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/conversions/product-4597-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27319,
+              "type": "image",
+              "name": "product-4597.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/9aa978aa-e4bd-46ef-8846-17ef690f8d4d/product-4597.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/9aa978aa-e4bd-46ef-8846-17ef690f8d4d/conversions/product-4597-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/9aa978aa-e4bd-46ef-8846-17ef690f8d4d/conversions/product-4597-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/9aa978aa-e4bd-46ef-8846-17ef690f8d4d/conversions/product-4597-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27320,
+              "type": "image",
+              "name": "product-4597.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/92c41c70-3bf0-44b6-9dcc-659f82a31413/product-4597.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/92c41c70-3bf0-44b6-9dcc-659f82a31413/conversions/product-4597-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/92c41c70-3bf0-44b6-9dcc-659f82a31413/conversions/product-4597-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/92c41c70-3bf0-44b6-9dcc-659f82a31413/conversions/product-4597-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27321,
+              "type": "image",
+              "name": "product-4597.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/29ca3dac-f17a-4cf4-bae5-29f767b30223/product-4597.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/29ca3dac-f17a-4cf4-bae5-29f767b30223/conversions/product-4597-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/29ca3dac-f17a-4cf4-bae5-29f767b30223/conversions/product-4597-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/29ca3dac-f17a-4cf4-bae5-29f767b30223/conversions/product-4597-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 149500,
+          "rate": "0.0",
+          "major_discount_amount": 149500,
+          "major_image": {
+            "id": 27318,
+            "type": "image",
+            "name": "product-4597.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/product-4597.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/conversions/product-4597-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/conversions/product-4597-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/fcad64d4-a1a6-4fde-b48a-c50bbca71736/conversions/product-4597-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 149500,
+            "amount": 149500
+          },
+          "views_count": 903,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4531,
+          "title": "تیشرت لانگ 3499",
+          "slug": "تیشرت-لانگ-3499",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 30,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-07-29",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-07-25 15:58:50",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27053,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/conversions/product-4531-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27054,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/849f4b82-7b1c-4be7-96db-434c9eda4ff2/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/849f4b82-7b1c-4be7-96db-434c9eda4ff2/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/849f4b82-7b1c-4be7-96db-434c9eda4ff2/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/849f4b82-7b1c-4be7-96db-434c9eda4ff2/conversions/product-4531-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27055,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2a06f5dc-f6a0-479c-975b-f3baa103717b/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2a06f5dc-f6a0-479c-975b-f3baa103717b/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2a06f5dc-f6a0-479c-975b-f3baa103717b/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2a06f5dc-f6a0-479c-975b-f3baa103717b/conversions/product-4531-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27056,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/a6e93551-45ae-41e9-806d-ab90d345999f/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/a6e93551-45ae-41e9-806d-ab90d345999f/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/a6e93551-45ae-41e9-806d-ab90d345999f/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/a6e93551-45ae-41e9-806d-ab90d345999f/conversions/product-4531-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27057,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/9ce960b3-a11c-471d-9056-23ea4300c9e6/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/9ce960b3-a11c-471d-9056-23ea4300c9e6/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/9ce960b3-a11c-471d-9056-23ea4300c9e6/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/9ce960b3-a11c-471d-9056-23ea4300c9e6/conversions/product-4531-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27058,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/cb522e59-2730-4178-beef-4486ef08c77a/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/cb522e59-2730-4178-beef-4486ef08c77a/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/cb522e59-2730-4178-beef-4486ef08c77a/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/cb522e59-2730-4178-beef-4486ef08c77a/conversions/product-4531-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27059,
+              "type": "image",
+              "name": "product-4531.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/deee8645-785d-49d5-a71b-19e38e5d1ec9/product-4531.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/deee8645-785d-49d5-a71b-19e38e5d1ec9/conversions/product-4531-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/deee8645-785d-49d5-a71b-19e38e5d1ec9/conversions/product-4531-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/deee8645-785d-49d5-a71b-19e38e5d1ec9/conversions/product-4531-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 220500,
+          "rate": "0.0",
+          "major_discount_amount": 94500,
+          "major_image": {
+            "id": 27053,
+            "type": "image",
+            "name": "product-4531.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/product-4531.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/conversions/product-4531-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/conversions/product-4531-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/39324169-90f6-44eb-836d-291967537afc/conversions/product-4531-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 30,
+            "discount_price": 94500,
+            "amount": 220500
+          },
+          "views_count": 866,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4530,
+          "title": "ست تاپ شلوارک زنانه 3496",
+          "slug": "ست-3496",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-07-25",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-07-25 14:49:55",
+          "updated_at": "2025-04-07 10:13:53",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27043,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27044,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/1d2c8de3-bcef-4c55-ac41-1806e2381417/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/1d2c8de3-bcef-4c55-ac41-1806e2381417/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/1d2c8de3-bcef-4c55-ac41-1806e2381417/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/1d2c8de3-bcef-4c55-ac41-1806e2381417/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27045,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/6c656c08-95e5-4e15-9dfc-7447d9e33609/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/6c656c08-95e5-4e15-9dfc-7447d9e33609/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/6c656c08-95e5-4e15-9dfc-7447d9e33609/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/6c656c08-95e5-4e15-9dfc-7447d9e33609/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27046,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/6c268016-6cea-4dad-af0c-b22a76b5aa5d/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/6c268016-6cea-4dad-af0c-b22a76b5aa5d/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/6c268016-6cea-4dad-af0c-b22a76b5aa5d/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/6c268016-6cea-4dad-af0c-b22a76b5aa5d/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27047,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2b2e33c4-9328-4a70-b72c-8c0dd7143176/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2b2e33c4-9328-4a70-b72c-8c0dd7143176/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2b2e33c4-9328-4a70-b72c-8c0dd7143176/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2b2e33c4-9328-4a70-b72c-8c0dd7143176/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27048,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/edc06ba5-f744-48af-92b1-6e7dace721ce/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/edc06ba5-f744-48af-92b1-6e7dace721ce/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/edc06ba5-f744-48af-92b1-6e7dace721ce/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/edc06ba5-f744-48af-92b1-6e7dace721ce/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27049,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/3ae1789e-321d-49d3-8d4e-3bd2ec73a607/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/3ae1789e-321d-49d3-8d4e-3bd2ec73a607/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/3ae1789e-321d-49d3-8d4e-3bd2ec73a607/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/3ae1789e-321d-49d3-8d4e-3bd2ec73a607/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27050,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/55ac8ddd-19c2-4b00-8026-82ede2c6621e/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/55ac8ddd-19c2-4b00-8026-82ede2c6621e/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/55ac8ddd-19c2-4b00-8026-82ede2c6621e/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/55ac8ddd-19c2-4b00-8026-82ede2c6621e/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27051,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/0a63b727-747e-4349-807e-c8a1890f1a3e/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/0a63b727-747e-4349-807e-c8a1890f1a3e/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/0a63b727-747e-4349-807e-c8a1890f1a3e/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/0a63b727-747e-4349-807e-c8a1890f1a3e/conversions/product-4530-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27052,
+              "type": "image",
+              "name": "product-4530.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/42eab6fa-4487-4778-a95c-9b8f8ed49568/product-4530.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/42eab6fa-4487-4778-a95c-9b8f8ed49568/conversions/product-4530-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/42eab6fa-4487-4778-a95c-9b8f8ed49568/conversions/product-4530-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/42eab6fa-4487-4778-a95c-9b8f8ed49568/conversions/product-4530-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 249500,
+          "rate": "0.0",
+          "major_discount_amount": 249500,
+          "major_image": {
+            "id": 27043,
+            "type": "image",
+            "name": "product-4530.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/product-4530.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/conversions/product-4530-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/conversions/product-4530-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/dbf6438b-3736-4422-b8cb-53a51b05b286/conversions/product-4530-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 249500,
+            "amount": 249500
+          },
+          "views_count": 1794,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4529,
+          "title": "کراپ 3491",
+          "slug": "کراپ-3491",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 30,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-07-25",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-07-25 10:07:58",
+          "updated_at": "2025-04-08 13:15:10",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27037,
+              "type": "image",
+              "name": "product-4529.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/product-4529.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/conversions/product-4529-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/conversions/product-4529-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/conversions/product-4529-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27038,
+              "type": "image",
+              "name": "product-4529.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/c4fe22f1-8ac8-42c6-88d0-07f222d7c237/product-4529.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/c4fe22f1-8ac8-42c6-88d0-07f222d7c237/conversions/product-4529-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/c4fe22f1-8ac8-42c6-88d0-07f222d7c237/conversions/product-4529-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/c4fe22f1-8ac8-42c6-88d0-07f222d7c237/conversions/product-4529-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27039,
+              "type": "image",
+              "name": "product-4529.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/84f2b172-752a-4fa7-b8b1-bcaed8fdee5f/product-4529.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/84f2b172-752a-4fa7-b8b1-bcaed8fdee5f/conversions/product-4529-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/84f2b172-752a-4fa7-b8b1-bcaed8fdee5f/conversions/product-4529-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/84f2b172-752a-4fa7-b8b1-bcaed8fdee5f/conversions/product-4529-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27040,
+              "type": "image",
+              "name": "product-4529.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/63d5e11f-142f-47fa-a429-710c65ffd660/product-4529.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/63d5e11f-142f-47fa-a429-710c65ffd660/conversions/product-4529-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/63d5e11f-142f-47fa-a429-710c65ffd660/conversions/product-4529-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/63d5e11f-142f-47fa-a429-710c65ffd660/conversions/product-4529-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27041,
+              "type": "image",
+              "name": "product-4529.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/33b5b2e8-e587-4611-8ebf-44d74e8474b6/product-4529.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/33b5b2e8-e587-4611-8ebf-44d74e8474b6/conversions/product-4529-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/33b5b2e8-e587-4611-8ebf-44d74e8474b6/conversions/product-4529-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/33b5b2e8-e587-4611-8ebf-44d74e8474b6/conversions/product-4529-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27042,
+              "type": "image",
+              "name": "product-4529.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/d5e803dd-3e42-466d-86c0-a590dcc1eaad/product-4529.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/d5e803dd-3e42-466d-86c0-a590dcc1eaad/conversions/product-4529-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/d5e803dd-3e42-466d-86c0-a590dcc1eaad/conversions/product-4529-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/d5e803dd-3e42-466d-86c0-a590dcc1eaad/conversions/product-4529-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 157500,
+          "rate": "0.0",
+          "major_discount_amount": 67500,
+          "major_image": {
+            "id": 27037,
+            "type": "image",
+            "name": "product-4529.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/product-4529.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/conversions/product-4529-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/conversions/product-4529-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/ea9c366b-cbe3-4cae-b482-8ee61b826d76/conversions/product-4529-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 30,
+            "discount_price": 67500,
+            "amount": 157500
+          },
+          "views_count": 1386,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4525,
+          "title": "کراپ  3490",
+          "slug": "کراپ-3490",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-07-24",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-07-24 15:56:12",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 27004,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27005,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2a639be3-8462-482e-ab3c-0fb9834e133a/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2a639be3-8462-482e-ab3c-0fb9834e133a/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2a639be3-8462-482e-ab3c-0fb9834e133a/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2a639be3-8462-482e-ab3c-0fb9834e133a/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27006,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2e343db1-1445-4824-a27a-8edcde2b4067/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2e343db1-1445-4824-a27a-8edcde2b4067/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2e343db1-1445-4824-a27a-8edcde2b4067/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2e343db1-1445-4824-a27a-8edcde2b4067/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27007,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/fef7472b-ce2a-40c2-a74c-3502f79cd38a/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/fef7472b-ce2a-40c2-a74c-3502f79cd38a/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/fef7472b-ce2a-40c2-a74c-3502f79cd38a/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/fef7472b-ce2a-40c2-a74c-3502f79cd38a/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27008,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/c4deb1ea-9e18-49c9-b2e3-9b7393dac166/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/c4deb1ea-9e18-49c9-b2e3-9b7393dac166/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/c4deb1ea-9e18-49c9-b2e3-9b7393dac166/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/c4deb1ea-9e18-49c9-b2e3-9b7393dac166/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27009,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/1f07a164-2528-409c-9abd-a1753c626f10/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/1f07a164-2528-409c-9abd-a1753c626f10/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/1f07a164-2528-409c-9abd-a1753c626f10/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/1f07a164-2528-409c-9abd-a1753c626f10/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27010,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/d77f1da0-fa9a-4c41-be60-7c73ee5defd3/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/d77f1da0-fa9a-4c41-be60-7c73ee5defd3/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/d77f1da0-fa9a-4c41-be60-7c73ee5defd3/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/d77f1da0-fa9a-4c41-be60-7c73ee5defd3/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27011,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/f2077b3c-6880-495b-8edb-53fa2fbf1d43/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/f2077b3c-6880-495b-8edb-53fa2fbf1d43/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/f2077b3c-6880-495b-8edb-53fa2fbf1d43/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/f2077b3c-6880-495b-8edb-53fa2fbf1d43/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27012,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/7921253b-d810-47dd-8796-7fcbb1314e51/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/7921253b-d810-47dd-8796-7fcbb1314e51/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/7921253b-d810-47dd-8796-7fcbb1314e51/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/7921253b-d810-47dd-8796-7fcbb1314e51/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27013,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/803729b1-dbec-4e4a-a1ef-35df7b1b6d41/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/803729b1-dbec-4e4a-a1ef-35df7b1b6d41/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/803729b1-dbec-4e4a-a1ef-35df7b1b6d41/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/803729b1-dbec-4e4a-a1ef-35df7b1b6d41/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27014,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/d9883031-d5c1-43f9-8edb-344a36ffdad6/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/d9883031-d5c1-43f9-8edb-344a36ffdad6/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/d9883031-d5c1-43f9-8edb-344a36ffdad6/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/d9883031-d5c1-43f9-8edb-344a36ffdad6/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27015,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/b8793248-b023-41fd-84e9-69684e763436/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/b8793248-b023-41fd-84e9-69684e763436/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/b8793248-b023-41fd-84e9-69684e763436/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/b8793248-b023-41fd-84e9-69684e763436/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27016,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/7eface25-90c0-4dea-b704-ee0c730d1d7d/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/7eface25-90c0-4dea-b704-ee0c730d1d7d/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/7eface25-90c0-4dea-b704-ee0c730d1d7d/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/7eface25-90c0-4dea-b704-ee0c730d1d7d/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27017,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/88b83010-6588-4c8f-99f7-d8eef8bcadd6/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/88b83010-6588-4c8f-99f7-d8eef8bcadd6/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/88b83010-6588-4c8f-99f7-d8eef8bcadd6/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/88b83010-6588-4c8f-99f7-d8eef8bcadd6/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27018,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/74acd5a9-a040-4353-986f-14d83b655600/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/74acd5a9-a040-4353-986f-14d83b655600/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/74acd5a9-a040-4353-986f-14d83b655600/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/74acd5a9-a040-4353-986f-14d83b655600/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27019,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/89be6113-f5ab-4003-a780-39a120b6e6ab/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/89be6113-f5ab-4003-a780-39a120b6e6ab/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/89be6113-f5ab-4003-a780-39a120b6e6ab/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/89be6113-f5ab-4003-a780-39a120b6e6ab/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27020,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/eda96e18-0e5f-42e8-a86e-a4183f1bf926/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/eda96e18-0e5f-42e8-a86e-a4183f1bf926/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/eda96e18-0e5f-42e8-a86e-a4183f1bf926/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/eda96e18-0e5f-42e8-a86e-a4183f1bf926/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27021,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/e848e7fe-a052-480e-8e73-0f55d842fb21/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/e848e7fe-a052-480e-8e73-0f55d842fb21/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/e848e7fe-a052-480e-8e73-0f55d842fb21/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/e848e7fe-a052-480e-8e73-0f55d842fb21/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27022,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/d958a5ca-2b58-41f2-8f51-e5e3f22a113e/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/d958a5ca-2b58-41f2-8f51-e5e3f22a113e/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/d958a5ca-2b58-41f2-8f51-e5e3f22a113e/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/d958a5ca-2b58-41f2-8f51-e5e3f22a113e/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27023,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/e709a72c-210f-4dca-995c-9ead6b655823/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/e709a72c-210f-4dca-995c-9ead6b655823/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/e709a72c-210f-4dca-995c-9ead6b655823/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/e709a72c-210f-4dca-995c-9ead6b655823/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27024,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/87e83dee-2fc7-4774-a29d-d2b53cb2e25c/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/87e83dee-2fc7-4774-a29d-d2b53cb2e25c/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/87e83dee-2fc7-4774-a29d-d2b53cb2e25c/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/87e83dee-2fc7-4774-a29d-d2b53cb2e25c/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27025,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/c13ae1ea-e4b8-42cc-8bc5-72093c454682/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/c13ae1ea-e4b8-42cc-8bc5-72093c454682/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/c13ae1ea-e4b8-42cc-8bc5-72093c454682/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/c13ae1ea-e4b8-42cc-8bc5-72093c454682/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27026,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/f3543723-6733-42c2-8dcf-9a8f1bd6cb6f/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/f3543723-6733-42c2-8dcf-9a8f1bd6cb6f/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/f3543723-6733-42c2-8dcf-9a8f1bd6cb6f/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/f3543723-6733-42c2-8dcf-9a8f1bd6cb6f/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27027,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/29b71d00-9bb2-4797-9dd0-7ca2d81b5c08/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/29b71d00-9bb2-4797-9dd0-7ca2d81b5c08/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/29b71d00-9bb2-4797-9dd0-7ca2d81b5c08/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/29b71d00-9bb2-4797-9dd0-7ca2d81b5c08/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27028,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/3a1b21bb-795c-4b21-aef0-52b425a68916/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/3a1b21bb-795c-4b21-aef0-52b425a68916/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/3a1b21bb-795c-4b21-aef0-52b425a68916/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/3a1b21bb-795c-4b21-aef0-52b425a68916/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27029,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/b9f9860c-be1b-4499-b5a0-c224d2cda961/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/b9f9860c-be1b-4499-b5a0-c224d2cda961/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/b9f9860c-be1b-4499-b5a0-c224d2cda961/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/b9f9860c-be1b-4499-b5a0-c224d2cda961/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27030,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/0c924d73-73a3-4aec-ac5f-5b9e130b4d0c/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/0c924d73-73a3-4aec-ac5f-5b9e130b4d0c/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/0c924d73-73a3-4aec-ac5f-5b9e130b4d0c/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/0c924d73-73a3-4aec-ac5f-5b9e130b4d0c/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27031,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/1e519dd8-9f0b-47e4-a345-3f4228a4fb5c/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/1e519dd8-9f0b-47e4-a345-3f4228a4fb5c/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/1e519dd8-9f0b-47e4-a345-3f4228a4fb5c/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/1e519dd8-9f0b-47e4-a345-3f4228a4fb5c/conversions/product-4525-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 27032,
+              "type": "image",
+              "name": "product-4525.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/3dee333f-1362-448a-a1b2-3182ce0747ac/product-4525.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/3dee333f-1362-448a-a1b2-3182ce0747ac/conversions/product-4525-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/3dee333f-1362-448a-a1b2-3182ce0747ac/conversions/product-4525-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/3dee333f-1362-448a-a1b2-3182ce0747ac/conversions/product-4525-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 99500,
+          "rate": "0.0",
+          "major_discount_amount": 99500,
+          "major_image": {
+            "id": 27004,
+            "type": "image",
+            "name": "product-4525.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/product-4525.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/conversions/product-4525-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/conversions/product-4525-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/528878da-62ce-4328-a63b-f5ebf10a8f66/conversions/product-4525-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 99500,
+            "amount": 99500
+          },
+          "views_count": 2610,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4499,
+          "title": "ست کراپ و شلوارک زنانه 3486",
+          "slug": "ست-نیمتنه-شورتک-3486",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-07-21",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-07-21 14:54:20",
+          "updated_at": "2025-04-07 10:10:47",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 26938,
+              "type": "image",
+              "name": "product-4499.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/product-4499.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/conversions/product-4499-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/conversions/product-4499-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/conversions/product-4499-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26939,
+              "type": "image",
+              "name": "product-4499.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/5db6b193-62e7-4c7a-9a7e-3ace6b458e44/product-4499.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/5db6b193-62e7-4c7a-9a7e-3ace6b458e44/conversions/product-4499-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/5db6b193-62e7-4c7a-9a7e-3ace6b458e44/conversions/product-4499-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/5db6b193-62e7-4c7a-9a7e-3ace6b458e44/conversions/product-4499-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26940,
+              "type": "image",
+              "name": "product-4499.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/310a3d4d-bcca-4964-a824-45f4727d2e74/product-4499.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/310a3d4d-bcca-4964-a824-45f4727d2e74/conversions/product-4499-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/310a3d4d-bcca-4964-a824-45f4727d2e74/conversions/product-4499-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/310a3d4d-bcca-4964-a824-45f4727d2e74/conversions/product-4499-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26941,
+              "type": "image",
+              "name": "product-4499.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/f1b57453-cbc0-4196-95d8-50e0cd2b2515/product-4499.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/f1b57453-cbc0-4196-95d8-50e0cd2b2515/conversions/product-4499-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/f1b57453-cbc0-4196-95d8-50e0cd2b2515/conversions/product-4499-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/f1b57453-cbc0-4196-95d8-50e0cd2b2515/conversions/product-4499-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26942,
+              "type": "image",
+              "name": "product-4499.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/e8fea422-a162-40f7-9d61-fe7e3607e71f/product-4499.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/e8fea422-a162-40f7-9d61-fe7e3607e71f/conversions/product-4499-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/e8fea422-a162-40f7-9d61-fe7e3607e71f/conversions/product-4499-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/e8fea422-a162-40f7-9d61-fe7e3607e71f/conversions/product-4499-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 234500,
+          "rate": "0.0",
+          "major_discount_amount": 234500,
+          "major_image": {
+            "id": 26938,
+            "type": "image",
+            "name": "product-4499.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/product-4499.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/conversions/product-4499-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/conversions/product-4499-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/c9cf06d2-5fbf-4590-b888-3f3e24fdf212/conversions/product-4499-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 234500,
+            "amount": 234500
+          },
+          "views_count": 1396,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4401,
+          "title": "شلوارک پلیسه ای  زنانه3430",
+          "slug": "شلوارک3430",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-07-11",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-07-02 12:40:13",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 26583,
+              "type": "image",
+              "name": "product-4401.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/product-4401.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/conversions/product-4401-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/conversions/product-4401-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/conversions/product-4401-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26584,
+              "type": "image",
+              "name": "product-4401.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/0a9dabef-6625-44fa-bbb3-68c714a9e13e/product-4401.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/0a9dabef-6625-44fa-bbb3-68c714a9e13e/conversions/product-4401-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/0a9dabef-6625-44fa-bbb3-68c714a9e13e/conversions/product-4401-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/0a9dabef-6625-44fa-bbb3-68c714a9e13e/conversions/product-4401-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26585,
+              "type": "image",
+              "name": "product-4401.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/10fbd927-d9a6-4394-949e-52728b7d4d5a/product-4401.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/10fbd927-d9a6-4394-949e-52728b7d4d5a/conversions/product-4401-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/10fbd927-d9a6-4394-949e-52728b7d4d5a/conversions/product-4401-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/10fbd927-d9a6-4394-949e-52728b7d4d5a/conversions/product-4401-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26586,
+              "type": "image",
+              "name": "product-4401.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/1ccf95a8-e2cc-46f9-8d63-976389d1e6e7/product-4401.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/1ccf95a8-e2cc-46f9-8d63-976389d1e6e7/conversions/product-4401-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/1ccf95a8-e2cc-46f9-8d63-976389d1e6e7/conversions/product-4401-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/1ccf95a8-e2cc-46f9-8d63-976389d1e6e7/conversions/product-4401-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26587,
+              "type": "image",
+              "name": "product-4401.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/a604e339-5c56-4dc6-a9e7-4c88751cc10d/product-4401.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/a604e339-5c56-4dc6-a9e7-4c88751cc10d/conversions/product-4401-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/a604e339-5c56-4dc6-a9e7-4c88751cc10d/conversions/product-4401-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/a604e339-5c56-4dc6-a9e7-4c88751cc10d/conversions/product-4401-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 149500,
+          "rate": "0.0",
+          "major_discount_amount": 149500,
+          "major_image": {
+            "id": 26583,
+            "type": "image",
+            "name": "product-4401.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/product-4401.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/conversions/product-4401-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/conversions/product-4401-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/f85133fd-5da5-42c1-bbcf-e7df1a4d7405/conversions/product-4401-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 149500,
+            "amount": 149500
+          },
+          "views_count": 550,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4352,
+          "title": "تیشرت 3401",
+          "slug": "تیشرت-3401",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-06-29",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-06-23 18:35:58",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 26398,
+              "type": "image",
+              "name": "product-4352.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/product-4352.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/conversions/product-4352-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/conversions/product-4352-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/conversions/product-4352-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26399,
+              "type": "image",
+              "name": "product-4352.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/1ccefd16-053c-40ad-ad35-19c51a091ed8/product-4352.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/1ccefd16-053c-40ad-ad35-19c51a091ed8/conversions/product-4352-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/1ccefd16-053c-40ad-ad35-19c51a091ed8/conversions/product-4352-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/1ccefd16-053c-40ad-ad35-19c51a091ed8/conversions/product-4352-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26400,
+              "type": "image",
+              "name": "product-4352.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/83ff5be7-f44a-49e1-8e52-ac0482d5c342/product-4352.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/83ff5be7-f44a-49e1-8e52-ac0482d5c342/conversions/product-4352-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/83ff5be7-f44a-49e1-8e52-ac0482d5c342/conversions/product-4352-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/83ff5be7-f44a-49e1-8e52-ac0482d5c342/conversions/product-4352-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 114500,
+          "rate": "4.5",
+          "major_discount_amount": 114500,
+          "major_image": {
+            "id": 26398,
+            "type": "image",
+            "name": "product-4352.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/product-4352.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/conversions/product-4352-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/conversions/product-4352-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/48d01f74-8a05-4926-ba8e-be2e10a70731/conversions/product-4352-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 114500,
+            "amount": 114500
+          },
+          "views_count": 2766,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4350,
+          "title": "کراپ 3379",
+          "slug": "کراپ-3379-b",
+          "short_description": null,
+          "discount_type": null,
+          "discount": null,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-06-22",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-06-22 12:41:47",
+          "updated_at": "2025-04-08 13:22:04",
+          "discount_until": null,
+          "image_alt": null,
+          "images": [
+            {
+              "id": 26389,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26390,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/b9853d24-e100-4a08-b66b-90d62a162a44/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/b9853d24-e100-4a08-b66b-90d62a162a44/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/b9853d24-e100-4a08-b66b-90d62a162a44/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/b9853d24-e100-4a08-b66b-90d62a162a44/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26391,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/3bd11546-bc8f-4a73-9455-5aef3a9b155c/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/3bd11546-bc8f-4a73-9455-5aef3a9b155c/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/3bd11546-bc8f-4a73-9455-5aef3a9b155c/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/3bd11546-bc8f-4a73-9455-5aef3a9b155c/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26392,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2b825092-583f-4d06-ac25-5b0fb4d6b92c/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2b825092-583f-4d06-ac25-5b0fb4d6b92c/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2b825092-583f-4d06-ac25-5b0fb4d6b92c/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2b825092-583f-4d06-ac25-5b0fb4d6b92c/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26393,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/83f57b70-9107-4b7f-bbc5-cdf6afb6c7a6/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/83f57b70-9107-4b7f-bbc5-cdf6afb6c7a6/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/83f57b70-9107-4b7f-bbc5-cdf6afb6c7a6/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/83f57b70-9107-4b7f-bbc5-cdf6afb6c7a6/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26394,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/93c982c6-ac5d-485f-b27a-6da75bd8d342/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/93c982c6-ac5d-485f-b27a-6da75bd8d342/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/93c982c6-ac5d-485f-b27a-6da75bd8d342/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/93c982c6-ac5d-485f-b27a-6da75bd8d342/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26395,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/cc438d22-8b3d-486b-88c3-b02d3444d89d/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/cc438d22-8b3d-486b-88c3-b02d3444d89d/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/cc438d22-8b3d-486b-88c3-b02d3444d89d/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/cc438d22-8b3d-486b-88c3-b02d3444d89d/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26396,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/2d85d3c4-905f-402e-b748-b245abe67181/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/2d85d3c4-905f-402e-b748-b245abe67181/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/2d85d3c4-905f-402e-b748-b245abe67181/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/2d85d3c4-905f-402e-b748-b245abe67181/conversions/product-4350-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26397,
+              "type": "image",
+              "name": "product-4350.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/bf56d3f6-6abc-47b7-9823-4c12b5a03282/product-4350.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/bf56d3f6-6abc-47b7-9823-4c12b5a03282/conversions/product-4350-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/bf56d3f6-6abc-47b7-9823-4c12b5a03282/conversions/product-4350-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/bf56d3f6-6abc-47b7-9823-4c12b5a03282/conversions/product-4350-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 229000,
+          "rate": "0.0",
+          "major_discount_amount": 0,
+          "major_image": {
+            "id": 26389,
+            "type": "image",
+            "name": "product-4350.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/product-4350.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/conversions/product-4350-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/conversions/product-4350-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/fad4641a-9785-475f-9834-2d2622bfb073/conversions/product-4350-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "none",
+            "discount_type": "none",
+            "discount": 0,
+            "discount_price": 0,
+            "amount": 229000
+          },
+          "views_count": 2729,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4325,
+          "title": "تیشرت 3395",
+          "slug": "تیشرت-3395",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-06-16",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-06-15 19:30:31",
+          "updated_at": "2025-04-07 13:47:20",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 26304,
+              "type": "image",
+              "name": "product-4325.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/product-4325.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/conversions/product-4325-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/conversions/product-4325-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/conversions/product-4325-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26305,
+              "type": "image",
+              "name": "product-4325.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/8de3dac2-3b98-48ff-978d-b848d0d94559/product-4325.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/8de3dac2-3b98-48ff-978d-b848d0d94559/conversions/product-4325-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/8de3dac2-3b98-48ff-978d-b848d0d94559/conversions/product-4325-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/8de3dac2-3b98-48ff-978d-b848d0d94559/conversions/product-4325-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26306,
+              "type": "image",
+              "name": "product-4325.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/c995e7dc-6457-49d2-ae9a-bbfc14c6bc53/product-4325.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/c995e7dc-6457-49d2-ae9a-bbfc14c6bc53/conversions/product-4325-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/c995e7dc-6457-49d2-ae9a-bbfc14c6bc53/conversions/product-4325-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/c995e7dc-6457-49d2-ae9a-bbfc14c6bc53/conversions/product-4325-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26307,
+              "type": "image",
+              "name": "product-4325.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/835e429c-fdae-4a45-b593-b8f075d2d007/product-4325.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/835e429c-fdae-4a45-b593-b8f075d2d007/conversions/product-4325-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/835e429c-fdae-4a45-b593-b8f075d2d007/conversions/product-4325-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/835e429c-fdae-4a45-b593-b8f075d2d007/conversions/product-4325-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26308,
+              "type": "image",
+              "name": "product-4325.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/803ece7e-daf6-4642-bdd9-7cc34aac42ab/product-4325.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/803ece7e-daf6-4642-bdd9-7cc34aac42ab/conversions/product-4325-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/803ece7e-daf6-4642-bdd9-7cc34aac42ab/conversions/product-4325-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/803ece7e-daf6-4642-bdd9-7cc34aac42ab/conversions/product-4325-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 26309,
+              "type": "image",
+              "name": "product-4325.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/fc8442e8-6af0-4b4b-8e61-cd49c29a00dd/product-4325.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/fc8442e8-6af0-4b4b-8e61-cd49c29a00dd/conversions/product-4325-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/fc8442e8-6af0-4b4b-8e61-cd49c29a00dd/conversions/product-4325-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/fc8442e8-6af0-4b4b-8e61-cd49c29a00dd/conversions/product-4325-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 114500,
+          "rate": "0.0",
+          "major_discount_amount": 114500,
+          "major_image": {
+            "id": 26304,
+            "type": "image",
+            "name": "product-4325.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/product-4325.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/conversions/product-4325-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/conversions/product-4325-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/01e0bbb0-ffb5-4884-94a8-54ad3cce904a/conversions/product-4325-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 114500,
+            "amount": 114500
+          },
+          "views_count": 2636,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4200,
+          "title": "کراپ 3328",
+          "slug": "کراپ-3328",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2024-05-01",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-05-01 10:58:55",
+          "updated_at": "2025-03-26 13:46:08",
+          "discount_until": "2025-08-26 13:46:08",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 25997,
+              "type": "image",
+              "name": "product-4200.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/product-4200.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/conversions/product-4200-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/conversions/product-4200-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/conversions/product-4200-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 25998,
+              "type": "image",
+              "name": "product-4200.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/e4298e8f-9bbe-4068-bb3c-2ae30106f6b1/product-4200.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/e4298e8f-9bbe-4068-bb3c-2ae30106f6b1/conversions/product-4200-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/e4298e8f-9bbe-4068-bb3c-2ae30106f6b1/conversions/product-4200-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/e4298e8f-9bbe-4068-bb3c-2ae30106f6b1/conversions/product-4200-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 25999,
+              "type": "image",
+              "name": "product-4200.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/daf54f31-0101-4456-b5d6-509b2bf1b06a/product-4200.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/daf54f31-0101-4456-b5d6-509b2bf1b06a/conversions/product-4200-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/daf54f31-0101-4456-b5d6-509b2bf1b06a/conversions/product-4200-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/daf54f31-0101-4456-b5d6-509b2bf1b06a/conversions/product-4200-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 99500,
+          "rate": "0.0",
+          "major_discount_amount": 99500,
+          "major_image": {
+            "id": 25997,
+            "type": "image",
+            "name": "product-4200.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/product-4200.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/conversions/product-4200-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/conversions/product-4200-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/199bafd4-690d-4f9b-a765-4d764d1156b5/conversions/product-4200-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 99500,
+            "amount": 99500
+          },
+          "views_count": 1241,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        },
+        {
+          "id": 4177,
+          "title": "کراپ 3310",
+          "slug": "کراپ-3310",
+          "short_description": null,
+          "discount_type": "percentage",
+          "discount": 50,
+          "SKU": "",
+          "barcode": "",
+          "chargeable": 0,
+          "threshold_quantity": null,
+          "threshold_date": "2025-03-20",
+          "brand_id": null,
+          "unit_id": 1,
+          "meta_description": null,
+          "meta_title": null,
+          "low_stock_quantity_warning": 0,
+          "show_quantity": 0,
+          "status": "available",
+          "created_at": "2024-04-28 10:55:59",
+          "updated_at": "2025-04-23 12:10:54",
+          "discount_until": "2025-08-26 13:46:00",
+          "image_alt": null,
+          "images": [
+            {
+              "id": 25916,
+              "type": "image",
+              "name": "product-4177.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/product-4177.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/conversions/product-4177-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/conversions/product-4177-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/conversions/product-4177-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 25917,
+              "type": "image",
+              "name": "product-4177.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/a57fad0b-f430-412f-b217-9446df575fdc/product-4177.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/a57fad0b-f430-412f-b217-9446df575fdc/conversions/product-4177-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/a57fad0b-f430-412f-b217-9446df575fdc/conversions/product-4177-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/a57fad0b-f430-412f-b217-9446df575fdc/conversions/product-4177-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 25918,
+              "type": "image",
+              "name": "product-4177.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/e1599aa9-a19c-4fc5-ab6c-77fa18b60eef/product-4177.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/e1599aa9-a19c-4fc5-ab6c-77fa18b60eef/conversions/product-4177-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/e1599aa9-a19c-4fc5-ab6c-77fa18b60eef/conversions/product-4177-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/e1599aa9-a19c-4fc5-ab6c-77fa18b60eef/conversions/product-4177-thumb_sm.jpg"
+              }
+            },
+            {
+              "id": 25919,
+              "type": "image",
+              "name": "product-4177.jpg",
+              "url": "https://api-atlasmode.alochand.com/storage/333b5d29-7302-4c7b-b634-aee899615be5/product-4177.jpg",
+              "conversions": {
+                "lg": "https://api-atlasmode.alochand.com/storage/333b5d29-7302-4c7b-b634-aee899615be5/conversions/product-4177-thumb_lg.jpg",
+                "md": "https://api-atlasmode.alochand.com/storage/333b5d29-7302-4c7b-b634-aee899615be5/conversions/product-4177-thumb_md.jpg",
+                "sm": "https://api-atlasmode.alochand.com/storage/333b5d29-7302-4c7b-b634-aee899615be5/conversions/product-4177-thumb_sm.jpg"
+              }
+            }
+          ],
+          "price": 79500,
+          "rate": "0.0",
+          "major_discount_amount": 79500,
+          "major_image": {
+            "id": 25916,
+            "type": "image",
+            "name": "product-4177.jpg",
+            "url": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/product-4177.jpg",
+            "conversions": {
+              "lg": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/conversions/product-4177-thumb_lg.jpg",
+              "md": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/conversions/product-4177-thumb_md.jpg",
+              "sm": "https://api-atlasmode.alochand.com/storage/a645a84f-0334-4a1f-9934-3fb873151f84/conversions/product-4177-thumb_sm.jpg"
+            }
+          },
+          "major_final_price": {
+            "discount_model": "product",
+            "discount_type": "percentage",
+            "discount": 50,
+            "discount_price": 79500,
+            "amount": 79500
+          },
+          "views_count": 1317,
+          "video_cover": [],
+          "video": [],
+          "is_vip": false,
+          "unit": {
+            "id": 1,
+            "name": "تعداد",
+            "symbol": "تعداد",
+            "precision": "1",
+            "status": 1,
+            "creator_id": 1,
+            "updater_id": 1,
+            "created_at": "2021-08-04 14:10:52",
+            "updated_at": "2021-08-04 14:10:52"
+          },
+          "brand": null
+        }
+      ],
+      "first_page_url": "https://api-atlasmode.alochand.com/v1/front/products?page=1",
+      "from": 1,
+      "last_page": 2,
+      "last_page_url": "https://api-atlasmode.alochand.com/v1/front/products?page=2",
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://api-atlasmode.alochand.com/v1/front/products?page=1",
+          "label": "1",
+          "active": true
+        },
+        {
+          "url": "https://api-atlasmode.alochand.com/v1/front/products?page=2",
+          "label": "2",
+          "active": false
+        },
+        {
+          "url": "https://api-atlasmode.alochand.com/v1/front/products?page=2",
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "next_page_url": "https://api-atlasmode.alochand.com/v1/front/products?page=2",
+      "path": "https://api-atlasmode.alochand.com/v1/front/products",
+      "per_page": 22,
+      "prev_page_url": null,
+      "to": 22,
+      "total": 37
+    },
+    "priceFilter": {
+      "max_price": 1359000,
+      "min_price": 1000
+    }
   }
 }
