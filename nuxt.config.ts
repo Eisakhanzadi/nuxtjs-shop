@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         }
     },
     css: ['~/assets/css/main.css'],
-    modules: ['@nuxtjs/tailwindcss' , '@pinia/nuxt'],
+    modules: ['@nuxtjs/tailwindcss' , '@pinia/nuxt','@nuxt/icon'],
     runtimeConfig:{
       public:{
           baseUrl:'http://localhost:8080/',
