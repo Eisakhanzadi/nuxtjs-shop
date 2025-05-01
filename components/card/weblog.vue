@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import persianDate from "~/composables/persianDate";
+
 const {data} = defineProps({
   data: {
     type: Object
@@ -19,7 +21,7 @@ const {data} = defineProps({
       <div><h5 class="line-clamp-1">{{ data.title }}</h5></div>
       <div class="time mt-2">
         <span class="text-sm">تاریخ انتشار : </span>
-        <time class="text-sm" :datetime="data.created_at">{{data.created_at}}</time>
+        <time class="text-sm" :datetime="data.created_at">{{persianDate(data.created_at).persianMonth}}</time>
       </div>
     </div>
   </nuxt-link>
