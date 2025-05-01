@@ -25,6 +25,8 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
+first 'npm install json-server'  then
+ run : 'json-server -w --port 8080 assets/dataBase.json' to start localhost for get data 
 # npm
 npm run dev
 
