@@ -30,11 +30,13 @@ const groupBy = computed(()=>store.filterByGroup)
       <p></p>
     </div>
     <div class="flex flex-col gap-2">
-      <div class="flex justify-between items-center">
+      <div v-if="groupBy && groupBy?.social" class="flex justify-between items-center">
         <div><nuxt-link to="/">برند شما</nuxt-link></div>
-        <div>
-          <span>اینتاگرام</span>
-        </div>
+        <ul class="flex gap-2 items-center justify-end">
+          <li v-for="item in groupBy?.social" :key="item.id">
+            <nuxt-link class="text-sm" to="item.value">{{item.label}}</nuxt-link>
+          </li>
+        </ul>
       </div>
       <div class="flex justify-between items-center">
         <h5>دسترسی سریع</h5>
