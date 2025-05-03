@@ -1,11 +1,10 @@
-export default function groupBy(arr: [], key: string) {
-    const obj: { [key: string]: any } = {}
-    arr.forEach(item => {
-        if (obj[item[key]] === item[key]) {
-            obj[item[key]] = item
-        } else {
-            obj[item[key]] = item
+export default function groupBy<T>(arr: T[], group: keyof T): { [key: string]: T[] } {
+    const key = group as string
+    return  arr.reduce((acc:{[key:string]:any}, item:any) => {
+        if (!acc[item[key]]) {
+            acc[item[key]] = [];
         }
-    })
-    return obj
+        acc[item[key]].push(item);
+        return acc;
+    }, {});
 }
