@@ -17,6 +17,18 @@ export default defineNuxtConfig({
           baseUrl:'http://localhost:8080/',
       }
     },
+    icon: {
+        // mode: 'css',
+        // cssLayer: 'base',
+        fetchTimeout: 1000,
+        // serverBundle: {
+        //     collections: ['uil', 'mdi'] // <!--- this
+        // },
+        clientBundle: {
+            scan:true,
+            sizeLimitKb: 256,
+        },
+    },
     postcss: {
         plugins: {
             tailwindcss: {},
