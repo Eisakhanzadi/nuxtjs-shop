@@ -166,7 +166,7 @@ const weblogConfig = {
 </script>
 
 <template>
-  <section v-if="createCategories" class="max-w-screen-xl w-[95%] md:w-10/12 mx-auto md:px-10 flex flex-col gap-y-16 py-10">
+  <section v-if="createCategories" class="container  mx-auto md:px-10 flex flex-col gap-y-16 py-10">
     <div>
       <slider :breakpoints="topSliderConfig">
         <swiper-slide>

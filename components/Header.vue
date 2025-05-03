@@ -24,7 +24,7 @@ console.log(menus)
 
 <template>
   <header ref="header" class="bg-white">
-    <section class=" max-w-screen-xl w-[95%] md:w-10/12 mx-auto md:px-10 py-4 relative">
+    <section class=" container  mx-auto md:px-10 py-4 relative">
       <div v-if="menus?.length" class="flex items-center justify-between">
         <div>
           <nuxt-link to="/">

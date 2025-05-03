@@ -10,7 +10,7 @@ const groupBy = computed(()=>store.filterByGroup)
 
 <template>
 <footer>
-  <section class="max-w-screen-xl w-[95%] md:w-10/12 mx-auto md:px-10 py-5 grid grid-cols-2 gap-x-2 items-center gap-y-5" >
+  <section class="container  mx-auto md:px-10 py-5 grid grid-cols-2 gap-x-2 items-center gap-y-5" >
     <div class="col-span-1">
       <h5>عضویت در خبرنامه</h5>
       <p> با اشتراک خبرنامه هفتگی ما از تخفیف ها , اخبارها و مطالب با خبر شوید. </p>
