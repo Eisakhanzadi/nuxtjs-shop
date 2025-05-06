@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'yekan-bakh';
+    src:
+    url("@/assets/fonts/Yekan_bakh/Yekan-Bakh_Regular.woff") format("woff");
+}
+@font-face {
+    font-family: number;
+    src:
+    url("@/assets/fonts/iranSansNumber/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"),
+    url("@/assets/fonts/iranSansNumber/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("@/assets/fonts/iranSansNumber/IRANSansWeb(FaNum)_Medium.ttf") format("ttf"),
+    url("@/assets/fonts/iranSansNumber/IRANSansWeb(FaNum)_Medium.eot") format("eot");
+}
