@@ -44,3 +44,12 @@ html,body * {
 .form-color{
     background: var(--color-form);
 }
+
+.container{
+    max-width: 85%;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 95%;
+    }
+}
