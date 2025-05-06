@@ -1,3 +1,4 @@
+@import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +9,38 @@ html,body * {
 }
 :root{
     --bg-primary : #f5f5f5;
+    --color-primary : #f5f5f5;
+    --color-form : #eaeaea88;
+    --color-dark-primary : #3b4447;
     --color-444:#444;
+    --color-666:#666;
+    --color-999:#999;
     --color-gray:rgba(0,0,0,0.5);
-    --soft-green:#d2ef9a,
+    --soft-green:#d2ef9a;
+    --border-color:#dee2e6;
+    --lighting-color: ;
+}
+.text-color-999{
+    color: var(--color-999);
+}
+.text-color-444{
+    color: var(--color-444);
+}
+.text-color-666{
+    color: var(--color-666);
+}
+.text-color-primary{
+    color: var(--color-primary);
+}
+.text-color-primary{
+    color: var(--color-primary);
+}
+.text-color-light{
+    color: var(--lighting-color);
+}
+.border{
+    border: 1px solid var(--border-color);
+}
+.form-color{
+    background: var(--color-form);
 }
