@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Logo from "~/components/icons/Logo.vue";
 import {process} from "std-env";
 const {public:{baseUrl}} = useRuntimeConfig()
 const {data} = await useFetch(`${baseUrl}/header`)
@@ -29,7 +28,6 @@ console.log(menus)
         <div>
           <nuxt-link to="/">
             <h1 class="font-bold text-lg"> برند شما</h1>
-<!--            <logo/>-->
           </nuxt-link>
         </div>
         <div>
@@ -77,6 +75,9 @@ console.log(menus)
 </template>
 
 <style scoped >
+header{
+  background-color: var(--bg-primary);
+}
 nav{
   ul{
     li{
