@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import {process} from "std-env";
 const {public:{baseUrl}} = useRuntimeConfig()
 const {data} = await useFetch(`${baseUrl}/header`)
 const menus = ref<{[key:string]:any}[]>(data.value.menus)
