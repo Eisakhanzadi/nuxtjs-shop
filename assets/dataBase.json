@@ -1,5 +1,5 @@
 {
-  "header" : {
+  "header": {
     "menus": [
       {
         "id": 166,
@@ -4571,7 +4571,7 @@
       ]
     }
   ],
-  "settings":[
+  "settings": [
     {
       "id": 1,
       "group": "site",
@@ -7968,5 +7968,1191 @@
       "max_price": 1359000,
       "min_price": 1000
     }
+  },
+  "weblog_categories": [
+    {
+      "id": 1,
+      "title": "لباس زنانه",
+      "slug": "لباس-زنانه",
+      "en_title": "لباس-زنانه",
+      "image": null,
+      "icon": null,
+      "children": [
+        {
+          "id": 2,
+          "title": "مانتو",
+          "en_title": "مانتو",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": {
+            "id": 39,
+            "type": "image",
+            "name": "1.png",
+            "url": "https://api.atlasmode.shop/storage/ae120eee-65b1-4e47-9e90-a77af9035ca3/1.png",
+            "conversions": []
+          },
+          "children": [
+            {
+              "id": 3,
+              "title": "مانتو کتی",
+              "slug": "",
+              "parent_id": 2,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 4,
+              "title": "مانتو تابستانی",
+              "slug": "",
+              "parent_id": 2,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 5,
+              "title": "مانتو ژاکارد",
+              "slug": "",
+              "parent_id": 2,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 6,
+              "title": "مانتو لنین",
+              "slug": "",
+              "parent_id": 2,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 7,
+              "title": "مانتو ابر و بادی",
+              "slug": "",
+              "parent_id": 2,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 8,
+              "title": "مانتو نخی",
+              "slug": "",
+              "parent_id": 2,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "شال",
+          "en_title": "شال",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 10,
+          "title": "روسری",
+          "en_title": "روسری",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 11,
+          "title": "لباس مجلسی زنانه",
+          "en_title": "لباس-مجلسی-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 12,
+              "title": "لباس مجلسی کوتاه",
+              "slug": "",
+              "parent_id": 11,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "شومیز",
+          "en_title": "شومیز",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": {
+            "id": 40,
+            "type": "image",
+            "name": "2.png",
+            "url": "https://api.atlasmode.shop/storage/fa785903-d20b-4124-84f2-552f5520915e/2.png",
+            "conversions": []
+          },
+          "children": [
+            {
+              "id": 14,
+              "title": "شومیز ساتن",
+              "slug": "",
+              "parent_id": 13,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 15,
+              "title": "شومیز سفید",
+              "slug": "",
+              "parent_id": 13,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 16,
+              "title": "شومیز حریر",
+              "slug": "",
+              "parent_id": 13,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 17,
+              "title": "شومیز مشکی",
+              "slug": "",
+              "parent_id": 13,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "کراپ",
+          "en_title": "کراپ",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 19,
+              "title": "کراپ مجلسی",
+              "slug": "",
+              "parent_id": 18,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 20,
+              "title": "کراپ تاپ",
+              "slug": "",
+              "parent_id": 18,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "اورال",
+          "en_title": "اورال",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 22,
+              "title": "اورال مجلسی",
+              "slug": "",
+              "parent_id": 21,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "دامن",
+          "en_title": "دامن",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": {
+            "id": 41,
+            "type": "image",
+            "name": "3.png",
+            "url": "https://api.atlasmode.shop/storage/50724c3d-8537-416f-b52c-8beef6550463/3.png",
+            "conversions": []
+          },
+          "children": [
+            {
+              "id": 24,
+              "title": "دامن کلوش",
+              "slug": "",
+              "parent_id": 23,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 25,
+              "title": "دامن شلواری",
+              "slug": "",
+              "parent_id": 23,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 26,
+              "title": "دامن لی و جین",
+              "slug": "",
+              "parent_id": 23,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 27,
+              "title": "دامن پلیسه",
+              "slug": "",
+              "parent_id": 23,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 28,
+              "title": "دامن حریر",
+              "slug": "",
+              "parent_id": 23,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "title": "وست",
+          "en_title": "وست",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 30,
+          "title": "لباس خواب",
+          "en_title": "لباس-خواب",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": {
+            "id": 42,
+            "type": "image",
+            "name": "5.png",
+            "url": "https://api.atlasmode.shop/storage/30acac84-cb37-478b-9da1-3602dda7c7b0/5.png",
+            "conversions": []
+          },
+          "children": [
+            {
+              "id": 31,
+              "title": "لباس خواب توری",
+              "slug": "",
+              "parent_id": 30,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 32,
+              "title": "لباس خواب فانتزی",
+              "slug": "",
+              "parent_id": 30,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 33,
+              "title": "لباس خواب ساتن",
+              "slug": "",
+              "parent_id": 30,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 34,
+              "title": "لباس خواب نخی",
+              "slug": "",
+              "parent_id": 30,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "title": "بادی",
+          "en_title": "بادی",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 36,
+          "title": "پیراهن زنانه",
+          "en_title": "پیراهن-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 37,
+              "title": "پیراهن ساحلی",
+              "slug": "",
+              "parent_id": 36,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "title": "کاپشن زنانه",
+          "en_title": "کاپشن-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 39,
+          "title": "پالتو زنانه",
+          "en_title": "پالتو-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 40,
+          "title": "لباس ورزشی زنانه",
+          "en_title": "لباس-ورزشی-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 90,
+              "title": "ست ورزشی زنانه",
+              "slug": "",
+              "parent_id": 40,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "title": "سارافون",
+          "en_title": "سارافون",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 42,
+          "title": "لباس زیر زنانه",
+          "en_title": "لباس-زیر-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 43,
+              "title": "سوتین",
+              "slug": "",
+              "parent_id": 42,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 44,
+              "title": "شورت زنانه",
+              "slug": "",
+              "parent_id": 42,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "title": "تونیک",
+          "en_title": "تونیک",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 46,
+              "title": "تونیک مجلسی",
+              "slug": "",
+              "parent_id": 45,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 47,
+              "title": "تونیک راحتی",
+              "slug": "",
+              "parent_id": 45,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "title": "هودی زنانه",
+          "en_title": "هودی-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 49,
+          "title": "دورس زنانه",
+          "en_title": "دورس-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 50,
+          "title": "تاپ زنانه",
+          "en_title": "تاپ-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 51,
+              "title": "تاپ مجلسی",
+              "slug": "",
+              "parent_id": 50,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 52,
+              "title": "تاپ راحتی",
+              "slug": "",
+              "parent_id": 50,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "title": "کت زنانه",
+          "en_title": "کت-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 54,
+              "title": "کت جین و لی زنانه",
+              "slug": "",
+              "parent_id": 53,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "title": "پافر زنانه",
+          "en_title": "پافر-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 56,
+          "title": "لباس راحتی و خانگی زنانه",
+          "en_title": "لباس-راحتی-خانگی-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 74,
+              "title": "شلوار راحتی زنانه",
+              "slug": "",
+              "parent_id": 56,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 96,
+              "title": "تاپ شلوارک زنانه",
+              "slug": "",
+              "parent_id": 56,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 98,
+              "title": "ست لباس راحتی زنانه",
+              "slug": "",
+              "parent_id": 56,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "title": "بافت و پلیور زنانه",
+          "en_title": "بافت-پلیور-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 58,
+          "title": "شلوار زنانه",
+          "en_title": "شلوار-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": {
+            "id": 37,
+            "type": "image",
+            "name": "4.png",
+            "url": "https://api.atlasmode.shop/storage/ce3cb449-86c6-489a-ae15-7ff3e38f3ba2/4.png",
+            "conversions": []
+          },
+          "icon": {
+            "id": 38,
+            "type": "image",
+            "name": "4.png",
+            "url": "https://api.atlasmode.shop/storage/da56697a-ec7e-4fd5-9876-6064b3f3c299/4.png",
+            "conversions": []
+          },
+          "children": [
+            {
+              "id": 59,
+              "title": "شلوار بوت کات",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 60,
+              "title": "شلوار دمپا زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 61,
+              "title": "شلوار لگ",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 62,
+              "title": "شلوار مام استایل زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 63,
+              "title": "شلوار مام فیت زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 64,
+              "title": "شلوار نیم بگ زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 65,
+              "title": "شلوار بگ زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 66,
+              "title": "شلوار اسکینی زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 67,
+              "title": "شلوار پارچه ای زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 68,
+              "title": "شلوار جین و لی زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 69,
+              "title": "شلوار اسلش و جاگر زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 70,
+              "title": "شلوار راسته زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 71,
+              "title": "شلوار کارگو زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 72,
+              "title": "شلوار پاکتی زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 73,
+              "title": "شلوار کتان زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 75,
+              "title": "شلوار ورزشی زنانه",
+              "slug": "",
+              "parent_id": 58,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "title": "سوییشرت زنانه",
+          "en_title": "سوییشرت-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 77,
+          "title": "تیشرت زنانه",
+          "en_title": "تیشرت-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": 78,
+          "title": "شلوارک و شورتک زنانه",
+          "en_title": "شلوارک-شورتک-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 79,
+              "title": "شلوارک لی و جین زنانه",
+              "slug": "",
+              "parent_id": 78,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 80,
+              "title": "شلوارک ورزشی زنانه",
+              "slug": "",
+              "parent_id": 78,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 81,
+              "title": "شلوارک خانگی زنانه",
+              "slug": "",
+              "parent_id": 78,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "title": "بلوز زنانه",
+          "en_title": "بلوز-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 83,
+              "title": "بلوز مجلسی زنانه",
+              "slug": "",
+              "parent_id": 82,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "title": "اکسسوری زنانه",
+          "en_title": "اکسسوری-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 85,
+              "title": "کلاه زنانه",
+              "slug": "",
+              "parent_id": 84,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 86,
+              "title": "جوراب زنانه",
+              "slug": "",
+              "parent_id": 84,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "title": "ست زنانه",
+          "en_title": "ست-زنانه",
+          "slug": "",
+          "parent_id": 1,
+          "image": null,
+          "icon": null,
+          "children": [
+            {
+              "id": 88,
+              "title": "کت شلوار زنانه",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 89,
+              "title": "کت دامن",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 91,
+              "title": "شومیز شلوار مجلسی",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 92,
+              "title": "شومیز دامن",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 93,
+              "title": "بلوز دامن",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 94,
+              "title": "بلوز شلوار",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 95,
+              "title": "مانتو شلوار",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            },
+            {
+              "id": 97,
+              "title": "ست بافت زنانه",
+              "slug": "",
+              "parent_id": 87,
+              "image": null,
+              "icon": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weblog_list": {
+  "category": [
+    {
+      "id": 1,
+      "name": "آموزشی",
+      "slug": "",
+      "order": 1,
+      "status": 1,
+      "creator_id": 1,
+      "updater_id": 1,
+      "created_at": "2025-04-19 09:56:55",
+      "updated_at": "2025-04-19 09:56:55"
+    }
+  ],
+  "banner": [],
+  "mostViews": [
+    {
+      "id": 1,
+      "title": "تاریخچه پنبه در ایران، از تولید تا تجارت",
+      "slug": "تاریخچه-پنبه-در-ایران-از-تولید-تا-تجارت",
+      "created_at": "2025-04-19 09:58:15",
+      "unique_views_count": 13,
+      "image": {
+        "id": 8,
+        "type": "image",
+        "name": "panbe.jpg",
+        "url": "https://api.atlasmode.shop/storage/fbdb8f02-9a67-4a11-95df-a30fe2bb80ab/panbe.jpg",
+        "conversions": []
+      },
+      "views_count": 13,
+      "category": null,
+      "tags": [],
+      "comments": [],
+      "creator": null
+    },
+    {
+      "id": 4,
+      "title": "چگونه استایل خود را بشناسیم؟",
+      "slug": "چگونه-استایل-خود-را-بشناسیم",
+      "created_at": "2025-04-19 10:00:12",
+      "unique_views_count": 8,
+      "image": {
+        "id": 11,
+        "type": "image",
+        "name": "11.jpg",
+        "url": "https://api.atlasmode.shop/storage/880a13f6-31db-4e76-9cfa-e19238dc154f/11.jpg",
+        "conversions": []
+      },
+      "views_count": 8,
+      "category": null,
+      "tags": [],
+      "comments": [],
+      "creator": null
+    },
+    {
+      "id": 2,
+      "title": "ترندهای پاییز/ زمستان 2021- 2022",
+      "slug": "ترندهای-پاییز-زمستان-2021-2022",
+      "created_at": "2025-04-19 09:59:01",
+      "unique_views_count": 7,
+      "image": {
+        "id": 9,
+        "type": "image",
+        "name": "333.jpg",
+        "url": "https://api.atlasmode.shop/storage/ec375a34-5f30-439e-bec3-52132227d03f/333.jpg",
+        "conversions": []
+      },
+      "views_count": 7,
+      "category": null,
+      "tags": [],
+      "comments": [],
+      "creator": null
+    },
+    {
+      "id": 3,
+      "title": "چطور برای خرید آنلاین سایز خود را پیدا کنیم؟",
+      "slug": "چطور-برای-خرید-آنلاین-سایز-خود-را-پیدا-کنیم",
+      "created_at": "2025-04-19 09:59:40",
+      "unique_views_count": 6,
+      "image": {
+        "id": 10,
+        "type": "image",
+        "name": "22.jpg",
+        "url": "https://api.atlasmode.shop/storage/bcb52b78-2265-4546-b4cf-b9133adbf481/22.jpg",
+        "conversions": []
+      },
+      "views_count": 6,
+      "category": null,
+      "tags": [],
+      "comments": [],
+      "creator": null
+    }
+  ],
+  "posts": {
+    "current_page": 1,
+    "data": [
+      {
+        "id": 1,
+        "title": "تاریخچه پنبه در ایران، از تولید تا تجارت",
+        "summary": "پنبه یکی از اولین رشته های گیاهی بود که برای تولید پارچه مورد استفاده قرار گرفت و علی رغم فرایند تولید پیچیده و سختش، هم چنان به عنوان مهم ترین کالای زراعی غیر خوراکی مورد توجه همگان است.\r\nردپای پنبه، اولین بار در معابد و قبرستان",
+        "slug": "تاریخچه-پنبه-در-ایران-از-تولید-تا-تجارت",
+        "special": 1,
+        "created_at": "2025-04-19 09:58:15",
+        "post_category_id": 1,
+        "views_count": 13,
+        "image": {
+          "id": 8,
+          "type": "image",
+          "name": "panbe.jpg",
+          "url": "https://api.atlasmode.shop/storage/fbdb8f02-9a67-4a11-95df-a30fe2bb80ab/panbe.jpg",
+          "conversions": []
+        },
+        "category": {
+          "id": 1,
+          "name": "آموزشی",
+          "slug": ""
+        }
+      },
+      {
+        "id": 2,
+        "title": "ترندهای پاییز/ زمستان 2021- 2022",
+        "summary": "در مقاله قبل گفتیم که یک استایل و استایلیست واقعی ترند ها را پس می زند، اما آیا این به این معناست که باید به کل ترند ها را نادیده بگیریم؟ مسلما خیر! برای اینکه فردی Fashionable یا اهل مدی به نظر برسید و ارادت و علاقه خود را به مد نشان دهید، علاوه بر دانش نسبت به ترند های",
+        "slug": "ترندهای-پاییز-زمستان-2021-2022",
+        "special": 1,
+        "created_at": "2025-04-19 09:59:01",
+        "post_category_id": 1,
+        "views_count": 7,
+        "image": {
+          "id": 9,
+          "type": "image",
+          "name": "333.jpg",
+          "url": "https://api.atlasmode.shop/storage/ec375a34-5f30-439e-bec3-52132227d03f/333.jpg",
+          "conversions": []
+        },
+        "category": {
+          "id": 1,
+          "name": "آموزشی",
+          "slug": ""
+        }
+      },
+      {
+        "id": 3,
+        "title": "چطور برای خرید آنلاین سایز خود را پیدا کنیم؟",
+        "summary": "می توان اهمیت اندازه گیری دقیق برای دوخت و خرید لباس را با مقدار های دقیق در پخت کیک یکی دانست. درست همان طور که اگر مقدار موارد اولیه در مایع کیک رعایت نشود نتیجه دلخواه به دست نمی آید، اگر اندازه لباس را درست انتخاب نکنیم،",
+        "slug": "چطور-برای-خرید-آنلاین-سایز-خود-را-پیدا-کنیم",
+        "special": 1,
+        "created_at": "2025-04-19 09:59:40",
+        "post_category_id": 1,
+        "views_count": 6,
+        "image": {
+          "id": 10,
+          "type": "image",
+          "name": "22.jpg",
+          "url": "https://api.atlasmode.shop/storage/bcb52b78-2265-4546-b4cf-b9133adbf481/22.jpg",
+          "conversions": []
+        },
+        "category": {
+          "id": 1,
+          "name": "آموزشی",
+          "slug": ""
+        }
+      },
+      {
+        "id": 4,
+        "title": "چگونه استایل خود را بشناسیم؟",
+        "summary": "برای اغلب ما، اینکه شی، لباس و یا طرح خاصی یادمان را در خاطر دیگران زنده کند خوشایند است. ممکن است یکی از دوستانتان را با عینک های نامتعارف و متنوعی که می پوشد و دیگری را با علاقه اش به جوراب های رنگارنگ",
+        "slug": "چگونه-استایل-خود-را-بشناسیم",
+        "special": 1,
+        "created_at": "2025-04-19 10:00:12",
+        "post_category_id": 1,
+        "views_count": 8,
+        "image": {
+          "id": 11,
+          "type": "image",
+          "name": "11.jpg",
+          "url": "https://api.atlasmode.shop/storage/880a13f6-31db-4e76-9cfa-e19238dc154f/11.jpg",
+          "conversions": []
+        },
+        "category": {
+          "id": 1,
+          "name": "آموزشی",
+          "slug": ""
+        }
+      }
+    ],
+    "first_page_url": "https://api.atlasmode.shop/v1/front/posts?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "https://api.atlasmode.shop/v1/front/posts?page=1",
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "https://api.atlasmode.shop/v1/front/posts?page=1",
+        "label": "1",
+        "active": true
+      },
+      {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "next_page_url": null,
+    "path": "https://api.atlasmode.shop/v1/front/posts",
+    "per_page": 9,
+    "prev_page_url": null,
+    "to": 4,
+    "total": 4
   }
+}
 }
