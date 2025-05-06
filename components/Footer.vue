@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import {useGetSettingsStore} from "~/stores/useSettingsKeys";
-
+const {public:{baseUrlTwo}} = useRuntimeConfig()
 const store = useGetSettingsStore()
-onBeforeMount(async ()=>{
+onBeforeMount(async () => {
   await store.fetchSettings()
- })
-const groupBy = computed(()=>store.filterByGroup)
+})
+const data = computed(() => store.filterByGroup)
+const shopInfo = computed(() => store.getShopInfo)
+
 </script>
 
 <template>
