@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     runtimeConfig:{
       public:{
           baseUrl:'http://localhost:8080/',
+          baseUrlTwo:'https://api.atlasmode.shop/v1/',
       }
     },
     icon: {
