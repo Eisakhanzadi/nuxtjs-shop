@@ -2,12 +2,12 @@
 import {process} from "std-env";
 const {public:{baseUrl}} = useRuntimeConfig()
 const {data} = await useFetch(`${baseUrl}/header`)
-const menus = ref(data.value.menus)
+const menus = ref<{[key:string]:any}[]>(data.value.menus)
 const header = ref<HTMLHeadElement>()
 console.log(menus)
   if (process.client) {
     window.addEventListener("scroll", () => {
-      let scrollTop = window.scrollY;
+      let scrollTop:string|number = window.scrollY;
       if (scrollTop > 250) {
         if (!header.value?.classList.contains('active-menu')) {
           header.value?.classList.add('active-menu');
