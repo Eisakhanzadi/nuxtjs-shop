@@ -33,10 +33,11 @@ console.log(menus)
           <nav class=" hidden lg:block">
             <ul class="flex gap-3">
               <li v-for="item in menus" :key="item.name">
-                <nuxt-link  class="flex gap-1 items-baseline py-3 " :to="`/categories/${item.id}/${item.title}`">
+
+                <link-resolver :item="item" >
                   <span >{{ item.title }}</span>
                   <span class="relative top-0.5" v-if="item.children?.length"><icons-angle/></span>
-                </nuxt-link>
+                </link-resolver>
                 <div v-if="item.children?.length" class="mega-menu-container absolute top-20 right-0 w-full z-50  ">
                   <megaMenu class="" :menus="item.children"/>
                 </div>
@@ -90,7 +91,7 @@ nav{
         transform: translateY(20px);
       }
     }
-    li:hover a + .mega-menu-container{
+    li:hover  .mega-menu-container{
       visibility: visible;
       opacity: 1;
       transform: translateY(-12px);
