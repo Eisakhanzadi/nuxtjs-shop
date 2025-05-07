@@ -16,13 +16,13 @@ const {data} = defineProps({
 
 <template>
   <article v-if="data" class="overflow-hidden">
-    <nuxt-link class="" :to="`/weblog-list/${data.id}/${data.title}`">
+    <nuxt-link class="" :to="`/weblog-details/${data.id}/${data.title}`">
       <div class="overflow-hidden rounded-xl">
         <figure><img :src="data.image?.url" :alt="data.title"></figure>
       </div>
       <div class="grid gap-2 mt-2.5 px-2" >
       <div class="category w-fit px-3.5 py-1 rounded-full flex items-center justify-center" v-if="location !== 'weblog-list' ">
-        <nuxt-link v-if="data?.category?.name" :to="`/weblog-list/${data.category.id}/${data.category.name}`" class="  text-sm">
+        <nuxt-link v-if="data?.category?.name" :to="`/weblog-details/${data.category.id}/${data.category.name}`" class="  text-sm">
           {{ data.category.name }}
         </nuxt-link>
       </div>
