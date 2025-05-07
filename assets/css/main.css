@@ -32,8 +32,8 @@ html,body * {
 .text-color-primary{
     color: var(--color-primary);
 }
-.text-color-primary{
-    color: var(--color-primary);
+.bg-color-primary{
+    background: var(--color-primary);
 }
 .text-color-light{
     color: var(--lighting-color);
