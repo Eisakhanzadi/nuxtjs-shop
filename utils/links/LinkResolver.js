@@ -1,4 +1,4 @@
-import links from './Links'
+import links from '~/utils/links/Links.js'
 
 // این متد وظیفه داره لینک یک صفحه رو از روی لینکیبل ها بدست بیاره
 // Config in Links.js file
