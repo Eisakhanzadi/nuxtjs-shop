@@ -1,11 +1,16 @@
 <template>
   <div class="app">
     <NuxtRouteAnnouncer/>
-    <nuxt-layout>
+    <nuxt-layout name="default">
       <nuxt-page/>
     </nuxt-layout>
   </div>
 </template>
+<script setup>
+ definePageMeta({
+   layout: 'default',
+ })
+</script>
 <style scoped>
 .app{
   background: var(--bg-primary);
