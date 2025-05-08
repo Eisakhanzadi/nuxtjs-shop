@@ -1,5 +1,5 @@
 <template>
-<div>
+<div v-if="item">
   <a
       v-if="item.link"
       :target="item.new_tab ? '_blank' : '_self'"
