@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {boolean} from "zod";
 
-const {question, email, subject, phone} = defineProps({
+const {question, email, subject, phone, focus} = defineProps({
   question: {
     default: true,
     type: boolean
@@ -17,10 +17,14 @@ const {question, email, subject, phone} = defineProps({
   phone: {
     default: true,
     type: boolean
+  },
+  focus: {
+    default: true,
+    type: boolean
   }
 })
 const emit = defineEmits(['sendMessage'])
-const firstInput = ref<HTMLInputElement>()
+const firstInput = ref<HTMLInputElement|null>(null)
 
 async function handleSubmit() {
   if (email && params.email.length < 10)
@@ -57,7 +61,9 @@ function deActiveError(item: string) {
 }
 
 onMounted(() => {
-  firstInput.value.focus()
+  if (focus) {
+    firstInput.value.focus()
+  }
 })
 
 
