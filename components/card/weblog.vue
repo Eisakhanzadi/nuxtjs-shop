@@ -16,7 +16,7 @@ const {data} = defineProps({
 
 <template>
   <article v-if="data" class="overflow-hidden">
-    <nuxt-link class="" :to="`/weblog-details/${data.id}/${data.title}`">
+    <nuxt-link class="" :to="`/weblog-details/${data?.id}/${data?.slug}`">
       <div class="overflow-hidden rounded-xl">
         <figure><img :src="data.image?.url" :alt="data.title"></figure>
       </div>
