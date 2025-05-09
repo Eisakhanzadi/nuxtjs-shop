@@ -37,7 +37,9 @@ span{
     visibility: hidden;
     content: '✔';
     position: absolute;
-    bottom: -1.5px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50% , 50%);
   }
 }
 input{
