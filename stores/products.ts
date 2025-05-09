@@ -29,5 +29,17 @@ export const useProductsStore = defineStore('getProductsStore', {
                 this.loading = false
             }
         },
+        async fetchProductsColorsFilter() {
+            const {public:{baseUrlTwo}} = useRuntimeConfig()
+            try {
+                this.loading = true
+                const response = await $fetch(`${baseUrlTwo}front/color-ranges`)
+                this.products['color_ranges'] =await response.data.colorRanges
+            } catch (e) {
+                console.log(e)
+            } finally {
+                this.loading = false
+            }
+        },
     },
 })
