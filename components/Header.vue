@@ -105,6 +105,8 @@ nav{
   width: 100%;
   animation: menu 1s 1 forwards ease ;
   z-index: 100;
+  background-color: white;
+  box-shadow: 3px 0 5px 2px rgba(0,0,0,.08);
 }
 @keyframes menu {
   from{

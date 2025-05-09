@@ -3,7 +3,7 @@ export default [{
         routerParams: 'id',
         routerQuery: '',
         routerSlug: 'slug',
-        listRouterName: 'weblog.list',
+        listRouterName: 'weblog-list',
         linkable_type: 'Modules\\Blog\\Entities\\Post',
     },
     {
