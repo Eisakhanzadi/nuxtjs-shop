@@ -22,7 +22,7 @@ console.log(menus)
 
 <template>
   <header ref="header" class="bg-white">
-    <section class=" container  mx-auto md:px-3 py-4 relative">
+    <section v-if="menus" class=" container  mx-auto md:px-3 py-4 relative">
       <div v-if="menus?.length" class="flex items-center justify-between">
         <div>
           <nuxt-link to="/">
