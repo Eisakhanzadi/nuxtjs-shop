@@ -16,8 +16,8 @@ const {product, image} = defineProps({
     <nuxt-link :to="`/product-detail/${product.id}/${product.title}`">
       <div>
         <figure>
-          <img class="hidden lg:inline-block" :src="product?.major_image?.conversions?.lg" :alt="product.title">
-          <img class="inline-block lg:hidden" :src="product?.major_image?.conversions?.md" :alt="product.title">
+          <img class="hidden lg:inline-block w-full" :src="product?.major_image?.conversions?.lg" :alt="product.title">
+          <img class="inline-block lg:hidden w-full" :src="product?.major_image?.conversions?.md" :alt="product.title">
         </figure>
       </div>
       <div>
