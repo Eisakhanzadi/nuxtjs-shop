@@ -230,19 +230,19 @@ const comments = [
             <div class="pt-4" v-if="weblogListCategories && !store.loading ">
               <weblog-categories :weblog-list-categories="weblogListCategories"/>
             </div>
-            <div v-if="store.loading" class="grid gap-3 mt-2">
-              <loader-skeleton class="w-1/2 h-4"/>
+            <div v-else class="grid gap-3 mt-2">
+              <loader-skeleton v-for="item in 5" :key="item"  :class="`${item % 2 == 0 ? `w-full` : `w-4/5` } h-4`"/>
             </div>
           </div>
           <div class="last-weblogs bg-white weblog-categories p-5">
             <div class="last-weblogs-title pb-3">
               <h5 class="text-lg font-medium">آخرین مطالب </h5>
             </div>
-            <div class="grid gap-3 mt-4" v-if="weblogDetails?.lastPost?.length && !store.loading">
-              <card-weblog-mini-card v-for="item in weblogDetails.lastPost" :key="item.id" :data="item"/>
-            </div>
             <div class="grid gap-3 mt-2" v-if="weblogDetails?.lastPost && store.loading" >
-            <loader-mini-card-weblog v-for="item in 5"/>
+            <loader-mini-card-weblog v-for="item in 5" :key="item"/>
+            </div>
+            <div class="grid gap-3 mt-4" v-else>
+              <card-weblog-mini-card v-for="item in weblogDetails?.lastPost" :key="item.id" :data="item"/>
             </div>
           </div>
         </div>

@@ -61,9 +61,12 @@ watch(() => route, () => {
       <breadcrumb :data="breadcrumbData"/>
     </section>
     <section class="container mx-auto md:grid grid-cols-4 gap-5">
-      <main class="col-span-3 grid gap-5 grid-cols-2 lg:grid-cols-3">
-        <template v-if="weblogList?.posts?.data">
+      <main class="col-span-3 grid gap-x-5 gap-y-8 grid-cols-2 lg:grid-cols-3">
+        <template v-if="weblogList?.posts?.data && !store.loading">
           <card-weblog v-for="item in weblogList?.posts?.data" :data="item" :key="item.id" location="weblog-list"/>
+        </template>
+        <template v-else>
+        <loader-weblog-card v-for="item in 9" :key="item"/>
         </template>
       </main>
       <aside class="col-span-1  ">
@@ -84,7 +87,10 @@ watch(() => route, () => {
             <div class="categories-weblog-title pb-3">
               <h5 class="text-lg font-medium">دسته بندی ها </h5>
             </div>
-            <div class="pt-4" v-if="weblogListCategories">
+            <div v-if="store.loading && !weblogListCategories?.length">
+              <loader-skeleton class="mt-3 w-full h-4" v-for=" item in 10" :key="item" />
+            </div>
+            <div class="pt-4" v-else>
               <weblog-categories :weblog-list-categories="weblogListCategories"/>
             </div>
           </div>
