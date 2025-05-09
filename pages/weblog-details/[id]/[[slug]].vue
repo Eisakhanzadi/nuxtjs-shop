@@ -215,7 +215,7 @@ const comments = [
             <h6 class="text-base font-normal">دیدگاهی بگذارید</h6>
             <p class="text-xs mt-2">نشانی ایمیل شما منتشر نخواهد شد </p>
           </div>
-          <form-message :question="false" :phone="false" :email="true" :subject="false"/>
+          <form-message :focus="false" :question="false" :phone="false" :email="true" :subject="false"/>
         </div>
         <div v-if="weblogDetails" class="bg-white mt-5 p-5">
           <form-comment :comments="comments"/>
