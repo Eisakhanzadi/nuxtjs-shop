@@ -22,11 +22,11 @@ const {product} = defineProps({
         </div>
         <div class="hidden md:flex w-fit group-hover:translate-x-0 transition ease-linear duration-300 flex-col items-center justify-center absolute top-1 right-1 translate-x-full">
           <ul>
-            <li class="mt-1 cursor-default scale-[0.8]" v-for="item in 5" :key="item">
+            <li class="mt-1 cursor-default scale-[0.8] hover:scale-110 transition ease-in duration-200" v-for="item in 5" :key="item">
               <icons-star />
             </li>
           </ul>
-          <button class="p-1 mt-2"><icons-heart/></button>
+          <button class="p-1 mt-2 hover:animate-pulse"><icons-heart/></button>
         </div>
         <div class="hidden md:flex w-full group-hover:translate-y-0 transition ease duration-300 flex-col items-center justify-center absolute bottom-2 translate-y-[50px]" >
           <button class="text-center text-xs lg:text-sm bg-white py-2 w-1/2 rounded-lg">
