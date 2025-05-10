@@ -1,18 +1,17 @@
 <script setup lang="ts">
-const {data, images} = defineProps({
+const {data} = defineProps({
   data: {
     type: Object
-  },
-  images: Object
+  }
 })
 </script>
 
 <template>
-  <article>
+  <article v-if="data && Object.keys(data)?.length">
     <nuxt-link to="/categories" class="grid gap-2">
       <div>
-        <figure class="overflow-hidden rounded-xl">
-          <img :src="images.img" alt="" class="w-full h-full object-cover">
+        <figure v-if="data.icon?.url" class="overflow-hidden rounded-xl">
+          <img :src="data.icon?.url" alt="" class="w-full h-full object-cover">
         </figure>
       </div>
       <div class="content rounded-xl">
@@ -44,7 +43,7 @@ article {
       transform-origin: right;
       transform: skewX(-45deg) scaleX(0);
       z-index: -1;
-      transition: transform .75s;
+      transition: ease transform 1s;
     }
   }
   &:hover {
@@ -56,7 +55,7 @@ article {
       &:after {
         transform-origin: left;
         transform: skewX(-45deg) scaleX(1.5);
-        transition: transform .75s;
+        transition:ease transform 1s;
       }
     }
   }
