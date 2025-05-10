@@ -12,6 +12,7 @@ import pink from "~/assets/static images/productsImageColor/pink.png";
 import white from "~/assets/static images/productsImageColor/white.png";
 import yellow from "~/assets/static images/productsImageColor/yellow.png";
 
+const emit = defineEmits(['closeModal'])
 const colorList: Array<{ [key: string]: any }> = [
   {
     id: 1,
@@ -101,13 +102,13 @@ const colorList: Array<{ [key: string]: any }> = [
 </script>
 
 <template>
-  <div class="card w-[740px] ">
+  <div class="card ">
     <div class="card-header border-b p-5 flex items-center justify-between">
       <div>
         <h5 class="text-sm font-bold mb-1.5">جزییات رنگ ها </h5>
         <p class="text-xs">زیر مجموعه‌های هر کدام از رنگ‌های موجود</p>
       </div>
-      <button @click.prevent="showModal = false" class="text-2xl p-1">&times;</button>
+      <button @click.prevent="emit('closeModal')" class="text-2xl p-1">&times;</button>
     </div>
     <div class="card-body max-h-[80vh] overflow-y-auto grid gap-7 p-5">
       <div class="" v-for="item in colorList" :key="item.id">
