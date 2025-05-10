@@ -7,9 +7,8 @@ const router = useRouter()
 
 const showGridItemCount = ref<number | string>(3)
 const filterSize = ref<HTMLElement | null>(null)
-const searchParams = ref<string>("")
-const timer = ref()
 const showModal = ref<boolean>(false)
+const filterMenu = ref<string>("most_visited")
 const breadcrumb:{[key:string]:string}[] =[
   {
     name:"لیست محصولات",
@@ -28,13 +27,10 @@ function closeModal(): void {
   showModal.value = false
 }
 
-async function searchByDelay() {
-  clearTimeout(timer.value)
-  timer.value = setTimeout(() => {
-    if (searchParams.value.length > 0) {
-      fetchSearchWeblog()
-    }
-  }, 500)
+
+
+function changeFilter(){
+  router.push({query:{...route.query ,sort:filterMenu.value}})
 }
 </script>
 
@@ -52,18 +48,7 @@ async function searchByDelay() {
           </div>
         </section>
         <section>
-          <div class="search-box box-shadow p-5 ">
-            <h6 class="mb-2">عنوان</h6>
-            <form action="" @submit.prevent="">
-              <div class="input-group border  overflow-hidden flex items-center">
-                <input @input="searchByDelay" v-model="searchParams" type="text" placeholder="دنبال چی میگردی ... ؟"
-                       class="w-full text-sm p-2 outline-0 bg-inherit placeholder:text-xs text-center caret-gray-600">
-                <button class="p-1.5">
-                  <icons-search/>
-                </button>
-              </div>
-            </form>
-          </div>
+          <form-search @search-item=""/>
         </section>
         <section class="box-shadow p-5 overflow-hidden transition ease-in duration-300" ref="filterSize">
           <details open>
@@ -93,7 +78,7 @@ async function searchByDelay() {
               </div>
             </summary>
             <div v-if="!store.loading && products?.color_ranges?.length">
-              <form-product-filter-color @get-color="console.log($event)" :data="products?.color_ranges"/>
+              <form-product-filter-color  @get-color="console.log($event)" :data="products?.color_ranges"/>
               <div @click="showModal = true" class="flex items-center justify-between cursor-pointer bg-[rgba(0,0,0,0.05)] px-2 py-3.5 mt-3 rounded">
                 <p>
                   <span class="inline-block font-bold text-center text-sm w-5 h-5 border-2 border-gray-800 rounded-full ml-2">!</span>
@@ -115,12 +100,25 @@ async function searchByDelay() {
         <section></section>
       </aside>
       <main class="col-span-3 grid gap-5 ">
-        <section class="col-span-1 flex gap-3 ">
-          <form-items-show-count
-              @change-count="showGridItemCount = $event"
-          />
-          <form-ckeckbox @getStatus="router.replace({query:{...route.query,available:$event}})"/>
-          <div></div>
+        <section class="col-span-1 flex items-center justify-between gap-3 ">
+          <div class="flex gap-3">
+            <form-items-show-count
+                @change-count="showGridItemCount = $event"
+            />
+            <form-ckeckbox @getStatus="router.replace({query:{...route.query,available:$event}})"/>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span>فیلتر : </span>
+            <select class="rounded text-sm border-1 outline-0 py-1.5 pr-2 pl-14" v-model="filterMenu" @change="changeFilter">
+              <option class="text-sm"  value="most_visited"> پربازدیدترین </option>
+              <option class="text-sm"  value="most_discount">  بیشترین تخیف </option>
+              <option class="text-sm"  value="newest"> ویژه </option>
+              <option class="text-sm"  value="top_sales"> پر فروش ترین </option>
+              <option class="text-sm"  value="high_to_low"> گران ترین </option>
+              <option class="text-sm"  value="low_to_high"> ارزان ترین </option>
+            </select>
+
+          </div>
         </section>
         <section
             class=" products-items grid  grid-cols-2 gap-x-5 gap-y-10"
@@ -143,7 +141,7 @@ async function searchByDelay() {
       </main>
       <transition name="show-modal">
         <modal-backdrop v-if="showModal" @close-modal="closeModal">
-          <color-options/>
+          <color-options @closeModal="showModal = false"/>
         </modal-backdrop>
       </transition>
     </section>
@@ -151,6 +149,21 @@ async function searchByDelay() {
 </template>
 
 <style scoped>
+.show-modal-enter-active{
+  animation: show-modal 0.3s forwards ease ;
+}
+.show-modal-leave-active {
+  animation: show-modal 0.3s reverse forwards ease ;
+}
+
+@keyframes show-modal {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 768px) {
   .products-items {
     display: grid;
