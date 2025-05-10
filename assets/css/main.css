@@ -39,9 +39,9 @@ html,body * {
 .text-color-light{
     color: var(--lighting-color);
 }
-.border{
-    border: 1px solid var(--border-color);
-}
+/*.border{*/
+/*    border: 1px solid var(--border-color);*/
+/*}*/
 .form-color{
     background: var(--color-form);
 }
@@ -92,4 +92,13 @@ html,body * {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #111;
+}
+
+/*button styles*/
+button{
+    transition: ease 0.3s transform;
+    transform: scale(1);
+}
+button:active{
+    transform: scale(0.98);
 }
