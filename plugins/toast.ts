@@ -1,6 +1,6 @@
 import Vue3Toastify,{ toast, updateGlobalOptions } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
-import 'assets/css/toast.client.css'
+import 'assets/css/toast.css'
 export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.config.globalProperties.Vue3Toastify = {
         install: () => {
