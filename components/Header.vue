@@ -2,6 +2,7 @@
 import {SwiperSlide} from "swiper/vue";
 import {useProductsStore} from "#imports";
 
+const {$toast} = useNuxtApp()
 const storeProducts = useProductsStore()
 
 const {public: {baseUrl}} = useRuntimeConfig()
@@ -15,7 +16,8 @@ const newProducts = computed(() => storeProducts.getNewProducts)
 const {data} = await useFetch(`${baseUrl}/header`)
 const menus = ref<{ [key: string]: any }[]>(data.value.menus)
 const header = ref<HTMLHeadElement>()
-const showSearchBox = ref(false)
+const showSearchBox = ref<boolean>(false)
+const showLogin = ref<boolean>(false)
 console.log(menus)
 if (process.client) {
   window.addEventListener("scroll", () => {
@@ -85,12 +87,12 @@ const sliderConfig = {
               </button>
             </li>
             <li class="flex items-center justify-center pr-1">
-              <button>
+              <button @click="showLogin=true">
                 <icons-user/>
               </button>
             </li>
             <li class="flex items-center justify-center">
-              <button>
+              <button @click="$toast( 'برای ورود به این قسمت ابتدا لاگین شوید' ,{type:'warning'} )">
                 <icons-heart/>
               </button>
             </li>
@@ -119,6 +121,11 @@ const sliderConfig = {
       </modal-backdrop>
     </transition-group>
   </header>
+  <transition-group name="show-modal">
+    <modal-backdrop @close-modal="showLogin = false" v-if="showLogin" classes="w-full lg:w-[500px]">
+        <login/>
+    </modal-backdrop>
+  </transition-group>
 </template>
 
 <style scoped>
@@ -169,18 +176,19 @@ nav {
   }
 }
 
-.show-modal-enter-active{
-  animation: show-modal 0.3s forwards ease ;
+.show-modal-enter-active {
+  animation: show-modal 0.3s forwards ease;
 }
+
 .show-modal-leave-active {
-  animation: show-modal 0.3s reverse forwards ease ;
+  animation: show-modal 0.3s reverse forwards ease;
 }
 
 @keyframes show-modal {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
