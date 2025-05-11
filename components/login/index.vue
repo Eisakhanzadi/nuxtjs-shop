@@ -20,7 +20,7 @@ function changeStep(step: number ,phone:string) {
   <div class="pb-5 border-b ">
     <p class="text-sm text-center font-bold">ورود به سایت </p>
   </div>
-  <div class="w-3/4 mx-auto flex flex-col justify-center items-center py-7">
+  <div class=" w-2/3 md:w-3/5 mx-auto flex flex-col justify-center items-center py-7">
     <client-only>
 
     <login-get-phone-number @changeStep="changeStep" v-if="steps==1"/>
