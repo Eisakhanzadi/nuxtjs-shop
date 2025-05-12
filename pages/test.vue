@@ -25,8 +25,10 @@
     <div>
       <nav id="mobile-menu" class=" flex items-center justify-between relative">
         <div class="w-full" v-for="item in array" :key="item">
-          <button @click="activeItem(index)"
-                  class="w-full font-bold border-4 border-y-0 text-center border-x-gray-500 inline-block bg-rose-500">
+          <button
+              class="w-full font-bold border-4 border-y-0 text-center border-x-gray-500 inline-block bg-rose-500"
+              @click="activeItem(index)"
+          >
             {{ item }}
           </button>
         </div>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {useProductsStore} from "~/stores/products";
 import ColorOptions from "~/components/colorOptions.vue";
+import Multiselect from "~/components/multiselect.vue";
 
 const route = useRoute()
 const router = useRouter()
@@ -20,8 +21,10 @@ const store = useProductsStore()
 onBeforeMount(async () => {
   await store.fetchProducts()
   await store.fetchProductsColorsFilter()
+  await store.fetchCategories()
 })
 const products = computed(() => store.getProducts)
+const categories = computed(() => store.getCategories)
 
 function closeModal(): void {
   showModal.value = false
@@ -46,9 +49,20 @@ function changeFilter(){
               فیلتر جستجو
             </p>
           </div>
+          <div class="mt-3" v-if="categories?.length > 0">
+            <form action="">
+              <div class="border rounded px-1">
+                <select class="w-full bg-transparent py-2 text-sm broder outline-0 rounded line-clamp-1">
+                  <option v-for="item in categories[0].children" class="text-sm text-gray-500 line-clamp-1 hover:bg-red-500" :key="item.id" :value="item">{{item.title}}</option>
+                </select>
+              </div>
+            </form>
+          </div>
         </section>
         <section>
+          <div class="p-5 box-shadow">
           <form-search @search-item=""/>
+          </div>
         </section>
         <section class="box-shadow p-5 overflow-hidden transition ease-in duration-300" ref="filterSize">
           <details open>

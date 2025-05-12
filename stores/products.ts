@@ -6,6 +6,7 @@ export const useProductsStore = defineStore('getProductsStore', {
         return {
             products: {},
             newProducts:null,
+            categories:null,
             loading: false,
             filterByGroup: []
         }
@@ -16,6 +17,9 @@ export const useProductsStore = defineStore('getProductsStore', {
         },
         getNewProducts(state) {
             return state.newProducts
+        },
+        getCategories(state) {
+            return state.categories
         }
     },
     actions: {
@@ -57,5 +61,18 @@ export const useProductsStore = defineStore('getProductsStore', {
                 this.loading = false
             }
         },
+        async fetchCategories() {
+            const {public:{baseUrlTwo}} = useRuntimeConfig()
+            try {
+                this.loading = true
+                const response = await $fetch(`${baseUrlTwo}front/get-categories`)
+                this.categories =await response
+            } catch (e) {
+                console.log(e)
+            } finally {
+                this.loading = false
+                console.log(this.products)
+            }
+        }
     },
 })
