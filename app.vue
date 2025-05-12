@@ -10,6 +10,12 @@
  definePageMeta({
    layout: 'default',
  })
+ const jwt = useCookie('jwt').value
+ useHead({
+   titleTemplate: (title) => {
+     return title ? `فروشگاه لباس | ${title}` : 'فروشگاه لباس'
+   }
+ })
 </script>
 <style scoped>
 .app{

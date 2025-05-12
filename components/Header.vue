@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import {SwiperSlide} from "swiper/vue";
-import {useProductsStore} from "#imports";
-
+import {useGetUserStore, useProductsStore} from "#imports";
+const router = useRouter()
 const {$toast} = useNuxtApp()
 const storeProducts = useProductsStore()
-
+const userStore = useGetUserStore()
 const {public: {baseUrl}} = useRuntimeConfig()
 
 onBeforeMount(async () => {
@@ -13,6 +13,7 @@ onBeforeMount(async () => {
 })
 
 const newProducts = computed(() => storeProducts.getNewProducts)
+const user = computed(() => userStore.getUserStatus)
 const {data} = await useFetch(`${baseUrl}/header`)
 const menus = ref<{ [key: string]: any }[]>(data.value.menus)
 const header = ref<HTMLHeadElement>()
@@ -51,7 +52,9 @@ const sliderConfig = {
     spaceBetween: 20,
   },
 }
-
+function handleFav(): void {
+  user.value?.isLogin ? router.push({path:'/user-panel/favorites'}) : $toast( 'برای ورود به این قسمت ابتدا لاگین شوید' ,{type:'warning'} )
+}
 </script>
 
 <template>
@@ -91,8 +94,8 @@ const sliderConfig = {
                 <icons-user/>
               </button>
             </li>
-            <li class="flex items-center justify-center">
-              <button @click="$toast( 'برای ورود به این قسمت ابتدا لاگین شوید' ,{type:'warning'} )">
+            <li class="flex items-center justify-center" v-if="user">
+              <button @click="handleFav">
                 <icons-heart/>
               </button>
             </li>
@@ -123,7 +126,7 @@ const sliderConfig = {
   </header>
   <transition-group name="show-modal">
     <modal-backdrop @close-modal="showLogin = false" v-if="showLogin" classes="w-full lg:w-[500px]">
-        <login/>
+        <login @close="showLogin = false"/>
     </modal-backdrop>
   </transition-group>
 </template>
