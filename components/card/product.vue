@@ -13,8 +13,8 @@ const {product} = defineProps({
       <div class="relative overflow-hidden">
         <div class="relative">
           <figure class="opacity-100  group-hover:opacity-0 transition ease-linear duration-200  ">
-            <img class="hidden lg:inline-block w-full" :src="product?.major_image?.conversions?.lg" :alt="product.title">
-            <img class="inline-block lg:hidden w-full" :src="product?.major_image?.conversions?.md" :alt="product.title">
+            <nuxt-img class="hidden lg:inline-block w-full" format="webp" quality="80" loading="lazy" :src="product?.major_image?.conversions?.lg" :alt="product.title"/>
+            <nuxt-img class="inline-block lg:hidden w-full" format="webp" quality="80" loading="lazy" :src="product?.major_image?.conversions?.md" :alt="product.title"/>
           </figure>
           <figure class=" opacity-0  group-hover:opacity-100 absolute inset-0 w-full h-full transition ease duration-200" v-if="product?.images?.length">
             <img :src="product?.images[product?.images?.length-1].url" :alt="product.title">
@@ -37,7 +37,7 @@ const {product} = defineProps({
       <div class="overflow-hidden ">
         <div class="flex color-range flex-wrap gap-1 items-center w-full overflow-x-auto py-2" v-if="product?.color_ranges?.length">
           <figure class="p-0.5 overflow-hidden !border-1 border-black" v-for="item in product.color_ranges">
-            <img class="w-6 h-6 md:w-8 md:h-8 rounded-full " :src="item.image" :alt="item.title">
+            <nuxt-img class="w-6 h-6 md:w-8 md:h-8 rounded-full " quality="80" format="webp" loading="lazy" :src="item.image" :alt="item.title"/>
           </figure>
         </div>
         <div class="title" v-if="product?.title"><h4>{{product.title}}</h4></div>
