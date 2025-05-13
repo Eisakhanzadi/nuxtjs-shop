@@ -43,6 +43,7 @@ async function handleRegisterLogin(){
       useCookie('jwt' ).value = user.access_token
      userType === 'login' ? $toast.success(' خوش برگشتی 😘' ,{type:'success'}) : $toast.success( 'به فروشگاه خودتون خوش آمدید 😍 ' , {type:'success' })
       emit('successLogin' )
+      return navigateTo('/user-panel')
     }
     if (error.value){
       $toast.success(data.value.message)

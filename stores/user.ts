@@ -17,13 +17,22 @@ export const useGetUserStore = defineStore('getUserStore', {
     getters: {
         getUserStatus(state) {
             return state.userStatus
+        },
+        getUser(state) {
+            return state.user
         }
     },
-    // could also be defined as
-    // state: () => ({ count: 0 })
     actions: {
-        async fetchHome() {
-
+        async fetchUser() {
+            const jwt = useCookie('jwt').value
+            const {public:{baseUrlTwo}} = useRuntimeConfig()
+            const response = await $fetch(`${baseUrlTwo}front/get-user` , {
+                headers:{
+                    Authorisation:`Bearer ${jwt}`,
+                    'content-type':'application/json'
+                }
+            })
+            this.user = await response?.data
         },
     },
 })

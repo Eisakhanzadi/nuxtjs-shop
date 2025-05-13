@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import {useGetUserStore} from "#imports";
+
 const breadcrumbs: { [key: string]: string }[] = [
   {
     url: '/user-panel',
@@ -9,11 +11,15 @@ const {$swal} = useNuxtApp()
 const router = useRouter()
 const route = useRoute()
 const cookie = useCookie('jwt')
+
+const store = useGetUserStore()
+await store.fetchUser()
+
 function logOut() {
   const swalWithBootstrapButtons = $swal.mixin({
     customClass: {
       confirmButton: "!bg-red-500 !hover:bg-red-300 text-white rounded px-3 py-2 text-sm mx-1",
-      cancelButton: "!bg-colore3e3e3 !hover:bg-color-f3 text-color666 rounded px-3 py-2 text-sm mx-1"
+      cancelButton: "!bg-colore3e3e3 !hover:bg-color-f3 text-color-666 rounded px-3 py-2 text-sm mx-1"
     },
     buttonsStyling: false
   });
@@ -25,33 +31,15 @@ function logOut() {
     confirmButtonText: "بله خارج شو !",
   }).then((result) => {
     if (result.isConfirmed) {
-      // useAsyncData('logout', () => $fetch(`${baseURL}/customer/logout`, {
-      //   server: false,
-      //   method: 'POST',
-      // })).then(res => {
-      //   console.log(res);
-      //   getStatusLogin.setlogin(false)
-      //   getStatusLogin.setNewCarts([])
-      //   getStatusLogin.User = null
-        // showUserOption.value = false
-        if (route.path.includes('panel') ||
-            route.path.includes('club') ||
-            route.path.includes('order') ||
-            route.path.includes('cart')) {
-          router.push('/')
-        }
-        if (cookie.value) {
-          cookie.value = "";
-        }
-        // const headers = {
-        //   authorization: ``,
-        //   ...configHeader
-        // };
-        // globalThis.$fetch = ofetch.create({
-        //   headers: headers,
-        // });
-      // })
-
+      if (cookie.value) {
+        cookie.value = "";
+      }
+      if (route.path.includes('panel') ||
+          route.path.includes('club') ||
+          route.path.includes('order') ||
+          route.path.includes('cart')) {
+        return router.push('/')
+      }
     }
   });
 }
@@ -60,7 +48,7 @@ function logOut() {
 <template>
   <section class="">
     <breadcrumb :data="breadcrumbs"/>
-    <section class="container mx-auto grid grid-cols-4 h-full gap-5 mt-5 md:mt-10">
+    <section class="container mx-auto lg:grid grid-cols-4 h-full gap-5 mt-5 md:mt-10">
       <aside class="col-span-1 h-full bg-white py-10 rounded-xl box-shadow">
         <nav>
           <ul>
@@ -138,8 +126,8 @@ function logOut() {
 </template>
 
 <style scoped>
-a.active{
-  background:var(--color-form)
+a.active {
+  background: var(--color-form)
 }
 
 </style>
