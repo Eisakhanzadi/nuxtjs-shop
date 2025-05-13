@@ -190,7 +190,7 @@ const comments = [
             </nav>
           </div>
         </div>
-        <loader-weblog-details v-if="store.loading && weblogDetails"/>
+        <loader-weblog-details v-if="store.loading"/>
         <div class="my-16" v-if="weblogDetails?.suggests?.length && !store.loading">
           <slider-title class="mb-6" :data="{title:'مطالب مشابه' , url:'/weblog-list'}" text="مشاهده مطالب بیشتر"/>
           <slider :breakpoints="weblogConfig">
@@ -199,7 +199,7 @@ const comments = [
             </swiper-slide>
           </slider>
         </div>
-        <div v-if="store.loading && weblogDetails?.suggests?.length">
+        <div v-if="store.loading">
           <div class="flex justify-between items-center mb-8">
             <loader-skeleton class="w-1/5 h-4"/>
             <loader-skeleton class="w-1/5 h-4"/>
