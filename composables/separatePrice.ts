@@ -1,3 +1,5 @@
-export default function separatePrice(price:number|string):string{
-    return Number(price).toLocaleString()
+export default function separatePrice(num:number|string):string{
+   return num.toString()
+        .replace(/\D/g, "")
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }

@@ -4,7 +4,9 @@
 
 <template>
   <section>
-    6
+    <user-panel-title title="برداشت از کیف پول"/>
+    <user-panel-no-items/>
+
   </section>
 </template>
 

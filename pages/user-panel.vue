@@ -5,7 +5,56 @@ const breadcrumbs: { [key: string]: string }[] = [
     name: 'حساب کاربری'
   }
 ]
+const {$swal} = useNuxtApp()
+const router = useRouter()
 const route = useRoute()
+const cookie = useCookie('jwt')
+function logOut() {
+  const swalWithBootstrapButtons = $swal.mixin({
+    customClass: {
+      confirmButton: "!bg-red-500 !hover:bg-red-300 text-white rounded px-3 py-2 text-sm mx-1",
+      cancelButton: "!bg-colore3e3e3 !hover:bg-color-f3 text-color666 rounded px-3 py-2 text-sm mx-1"
+    },
+    buttonsStyling: false
+  });
+  swalWithBootstrapButtons.fire({
+    title: "آیا میخواهید خارج شوید؟",
+    icon: "warning",
+    showCancelButton: true,
+    cancelButtonText: "خیر",
+    confirmButtonText: "بله خارج شو !",
+  }).then((result) => {
+    if (result.isConfirmed) {
+      // useAsyncData('logout', () => $fetch(`${baseURL}/customer/logout`, {
+      //   server: false,
+      //   method: 'POST',
+      // })).then(res => {
+      //   console.log(res);
+      //   getStatusLogin.setlogin(false)
+      //   getStatusLogin.setNewCarts([])
+      //   getStatusLogin.User = null
+        // showUserOption.value = false
+        if (route.path.includes('panel') ||
+            route.path.includes('club') ||
+            route.path.includes('order') ||
+            route.path.includes('cart')) {
+          router.push('/')
+        }
+        if (cookie.value) {
+          cookie.value = "";
+        }
+        // const headers = {
+        //   authorization: ``,
+        //   ...configHeader
+        // };
+        // globalThis.$fetch = ofetch.create({
+        //   headers: headers,
+        // });
+      // })
+
+    }
+  });
+}
 </script>
 
 <template>
@@ -71,6 +120,7 @@ const route = useRoute()
             </li>
             <li>
               <button
+                  @click.prevent="logOut"
                   class="py-2.5 px-5 flex  items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm">
                 <span class="icon"><icons-exit color="red" class="text-rose-500"/></span>
                 <span class="text text-rose-500">خروج از حساب کاربری</span>

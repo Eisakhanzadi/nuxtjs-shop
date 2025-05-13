@@ -4,8 +4,9 @@
 
 <template>
   <section>
-    5
-  </section>
+    <user-panel-title title="کیف پول"/>
+    <user-panel-no-items/>
+    </section>
 </template>
 
 <style scoped>

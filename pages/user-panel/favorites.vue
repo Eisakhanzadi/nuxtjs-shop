@@ -4,7 +4,9 @@
 
 <template>
   <section>
-    4
+    <user-panel-title title="لیست علاقه مندی ها"/>
+    <user-panel-no-items/>
+
   </section>
 </template>
 
