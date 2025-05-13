@@ -49,57 +49,57 @@ function logOut() {
   <section class="">
     <breadcrumb :data="breadcrumbs"/>
     <section class="container mx-auto lg:grid grid-cols-4 h-full gap-5 mt-5 md:mt-10">
-      <aside class="col-span-1 h-full bg-white py-10 rounded-xl box-shadow">
+      <aside class="lg:col-span-1 w-full mb-3 lg:mb-0 h-full bg-white py-5 lg:py-10 rounded-xl box-shadow">
         <nav>
           <ul>
-            <li>
+            <li :class="{'active' :route.name === 'user-panel'}">
               <nuxt-link
-                  :class="{'active -translate-x-3' :route.name === 'user-panel'}"
+                  :class="{'-translate-x-3' :route.name === 'user-panel'}"
                   class="py-2.5 px-5 flex items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm"
                   to="/user-panel">
                 <span class="icon"><icons-full-user/></span>
                 <span class="text">حساب کاربری</span>
               </nuxt-link>
             </li>
-            <li>
+            <li :class="{'active' :route.name === 'user-panel-locations'}">
               <nuxt-link
-                  :class="{'active -translate-x-3' :route.name === 'user-panel-locations'}"
+                  :class="{'-translate-x-3' :route.name === 'user-panel-locations'}"
                   class="py-2.5 px-5 flex items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm"
                   to="/user-panel/locations">
                 <span class="icon"><icons-location/></span>
                 <span class="text">لیست آدرس ها</span>
               </nuxt-link>
             </li>
-            <li>
+            <li :class="{'active' :route.name === 'user-panel-orders'}">
               <nuxt-link
-                  :class="{'active -translate-x-3' :route.name === 'user-panel-orders'}"
+                  :class="{'-translate-x-3' :route.name === 'user-panel-orders'}"
                   class="py-2.5 px-5 flex items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm"
                   to="/user-panel/orders">
                 <span class="icon"><icons-documnet/></span>
                 <span class="text">پیگیری سفارش</span>
               </nuxt-link>
             </li>
-            <li>
+            <li :class="{'active' :route.name === 'user-panel-favorites'}">
               <nuxt-link
-                  :class="{'active -translate-x-3' :route.name === 'user-panel-favorites'}"
+                  :class="{'-translate-x-3' :route.name === 'user-panel-favorites'}"
                   class="py-2.5 px-5 flex items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm"
                   to="/user-panel/favorites">
                 <span class="icon"><icons-heart/></span>
                 <span class="text">لیست علاقه مندی ها</span>
               </nuxt-link>
             </li>
-            <li>
+            <li :class="{'active' :route.name === 'user-panel-wallet'}">
               <nuxt-link
-                  :class="{'active -translate-x-3' :route.name === 'user-panel-wallet'}"
+                  :class="{'-translate-x-3' :route.name === 'user-panel-wallet'}"
                   class="py-2.5 px-5 flex items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm"
                   to="/user-panel/wallet">
                 <span class="icon"><icons-wallet/></span>
                 <span class="text">کیف پول</span>
               </nuxt-link>
             </li>
-            <li>
+            <li :class="{'active' :route.name === 'user-panel-withdraw'}">
               <nuxt-link
-                  :class="{'active -translate-x-3' :route.name === 'user-panel-withdraw'}"
+                  :class="{'-translate-x-3' :route.name === 'user-panel-withdraw'}"
                   class="py-2.5 px-5 flex items-center gap-1 hover:-translate-x-3 transform transition duration-300 ease-ease text-sm"
                   to="/user-panel/withdraw">
                 <span class="icon"><icons-withdraw/></span>
@@ -126,7 +126,7 @@ function logOut() {
 </template>
 
 <style scoped>
-a.active {
+.active {
   background: var(--color-form)
 }
 

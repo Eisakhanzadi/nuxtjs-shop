@@ -26,13 +26,21 @@ export const useGetUserStore = defineStore('getUserStore', {
         async fetchUser() {
             const jwt = useCookie('jwt').value
             const {public:{baseUrlTwo}} = useRuntimeConfig()
-            const response = await $fetch(`${baseUrlTwo}front/get-user` , {
-                headers:{
-                    Authorisation:`Bearer ${jwt}`,
-                    'content-type':'application/json'
-                }
-            })
-            this.user = await response?.data
+            this.loading = true
+            try {
+                const response = await $fetch(`${baseUrlTwo}front/get-user` , {
+                    headers:{
+                        Authorisation:`Bearer ${jwt}`,
+                        'content-type':'application/json'
+                    }
+                })
+                this.user = await response?.data
+            }
+            catch (error) {
+                console.log(error)
+            }finally {
+                this.loading = false
+            }
         },
     },
 })
