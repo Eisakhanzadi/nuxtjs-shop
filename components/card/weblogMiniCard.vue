@@ -10,7 +10,7 @@ const {data} = defineProps({
 
 <template>
   <article v-if="data" class="overflow-hidden">
-    <nuxt-link class="card flex gap-1.5 w-full" :to="`/weblog-detials/${data.id}/${data.slug}`" >
+    <nuxt-link class="card flex gap-1.5 w-full" :to="`/weblog-details/${data?.id}/${data?.slug}`" >
       <figure  >
         <img class=" rounded-md w-[90px] h-[60px] object-cover" :src="data.image.url" :alt="data.title">
       </figure>
