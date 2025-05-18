@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import {useGetUserStore} from "#imports";
+
 const store = useGetUserStore()
 const userStore = computed(()=>store.getUser)
 const showDetails = ref<boolean>(false)
 </script>
 
 <template>
-  <section>
+  <section> {{userStore}}
       <user-panel-title title="اطلاعات کاربری"/>
     <div v-if="userStore?.user">
       <user-panel-info-user-info :data="useStore?.user" v-if="!showDetails" @showDetails="showDetails = true"/>

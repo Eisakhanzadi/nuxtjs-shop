@@ -40,7 +40,6 @@ async function handleSubmit() {
   if (question && params.question !== 'تهران')
     paramsError.question = true
   // if all params was ok
-  console.log(filterExistParams())
   if (
       paramsError.name &&
       (paramsError.email) &&
@@ -49,8 +48,6 @@ async function handleSubmit() {
       paramsError.body &&
       (paramsError.question)
   ) {
-
-    console.log(params)
     // emit('sendMessage', filterExistParams())
 
   }

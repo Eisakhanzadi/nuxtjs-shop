@@ -11,7 +11,6 @@ const {data} = defineProps({
 const size =ref<{[key: string]:any}[]>([])
 
 const activeSize = ()=>{
-  console.log(size.value)
   router.replace({query:{...route.query ,size:size.value.join(',')}})
   emit('getSize' , size)
 }

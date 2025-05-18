@@ -11,7 +11,7 @@ let props=defineProps({
     default:""
   }
 })
-console.log(props.cardBanck ,"props.cardBanck");
+
 
 const emit=defineEmits("inputValue")
 
@@ -80,7 +80,6 @@ function validateToken() {
 function changeInput(event) {
   let index = ref(null)
   index.value = +event.target.id.slice(5)
-  console.log(event.which, "e.which");
 
   if (((event.which < 48 && event.which > 57) && (event.which < 96 && event.which > 105)) && event.keyCode != 8 && event.keyCode != 9) {
     event.preventDefault();

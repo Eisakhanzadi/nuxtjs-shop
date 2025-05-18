@@ -29,7 +29,6 @@ export const useProductsStore = defineStore('getProductsStore', {
                 this.loading = true
                 const response = await $fetch(`${baseUrlTwo}front/products`)
                 this.products =await response.data
-                console.log(this.products)
                 // this.filterByGroup = groupBy(this.products ,'group')
             } catch (e) {
                 console.log(e)
@@ -61,17 +60,18 @@ export const useProductsStore = defineStore('getProductsStore', {
                 this.loading = false
             }
         },
-        async fetchCategories() {
+        async fetchCategories(query) {
             const {public:{baseUrlTwo}} = useRuntimeConfig()
             try {
                 this.loading = true
-                const response = await $fetch(`${baseUrlTwo}front/get-categories`)
+                const response = await $fetch(`${baseUrlTwo}front/get-categories` , {
+                    query
+                })
                 this.categories =await response
             } catch (e) {
                 console.log(e)
             } finally {
                 this.loading = false
-                console.log(this.products)
             }
         }
     },

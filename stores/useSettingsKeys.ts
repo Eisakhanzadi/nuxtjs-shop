@@ -28,7 +28,6 @@ export const useGetSettingsStore = defineStore('getSettingsStore', {
                 this.loading = true
                 this.settings = await useFetchData('settings')
                 this.filterByGroup = groupBy(this.settings, 'group')
-                console.log(this.filterByGroup)
                 this.shopInfoGroup()
             } catch (e) {
                 console.log(e)
@@ -38,7 +37,6 @@ export const useGetSettingsStore = defineStore('getSettingsStore', {
         },
         shopInfoGroup(){
             this.shopInfo = groupBy(this.filterByGroup?.site, 'name')
-            console.log(this.shopInfo)
         }
 
     },

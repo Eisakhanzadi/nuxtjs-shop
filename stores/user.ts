@@ -34,7 +34,7 @@ export const useGetUserStore = defineStore('getUserStore', {
                         'content-type':'application/json'
                     }
                 })
-                this.user = await response?.data
+                this.user = response?.data
             }
             catch (error) {
                 console.log(error)

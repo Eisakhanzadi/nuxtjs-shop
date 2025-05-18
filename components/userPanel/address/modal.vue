@@ -27,7 +27,6 @@ const {data, title, theme, area, currentArea} = defineProps({
     type: Object
   }
 })
-console.log(area);
 const emit = defineEmits(['close'])
 const formArea = ref({
   provinces: {name: data?.city?.province?.name ?? "", id: data?.city?.province?.id ?? ""},

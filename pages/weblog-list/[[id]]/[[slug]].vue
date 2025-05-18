@@ -42,7 +42,6 @@ async function fetchSearchWeblog() {
       method: 'GET',
       query: {search1: searchParams.value, searchBy1: "title"}
     })
-    console.log(data, 'weblogList')
   } catch (err) {
     console.log(err)
   }

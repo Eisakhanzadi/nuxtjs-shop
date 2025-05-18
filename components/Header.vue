@@ -19,7 +19,6 @@ const menus = ref<{ [key: string]: any }[]>(data.value.menus)
 const header = ref<HTMLHeadElement>()
 const showSearchBox = ref<boolean>(false)
 const showLogin = ref<boolean>(false)
-console.log(menus)
 if (process.client) {
   window.addEventListener("scroll", () => {
     let scrollTop: string | number = window.scrollY;

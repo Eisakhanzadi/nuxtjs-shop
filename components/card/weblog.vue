@@ -7,7 +7,7 @@ const {data} = defineProps({
     type: Object,
     required: true,
   },
-  location:{
+  location: {
     type: String,
     default: "home"
   }
@@ -20,12 +20,14 @@ const {data} = defineProps({
       <div class="overflow-hidden rounded-xl">
         <figure><img :src="data.image?.url" :alt="data.title"></figure>
       </div>
-      <div class="grid gap-2 mt-2.5 px-2" >
-      <div class="category w-fit px-3.5 py-1 rounded-full flex items-center justify-center" v-if="location !== 'weblog-list' ">
-        <nuxt-link v-if="data?.category?.name" :to="`/weblog-details/${data.category.id}/${data.category.name}`" class="  text-sm">
-          {{ data.category.name }}
-        </nuxt-link>
-      </div>
+      <div class="grid gap-2 mt-2.5 px-2">
+        <div class="category w-fit px-3.5 py-1 rounded-full flex items-center justify-center"
+             v-if="location !== 'weblog-list' ">
+          <nuxt-link v-if="data?.category?.name" :to="`/weblog-details/${data.category.id}/${data.category.name}`"
+                     class="  text-sm">
+            {{ data.category.name }}
+          </nuxt-link>
+        </div>
         <div>
           <h5 v-if=" data?.title " class="line-clamp-1 flex items-center gap-0.5 text-sm">
             <icons-arrow-toggle-left/>
@@ -54,9 +56,27 @@ const {data} = defineProps({
 
 <style scoped lang="scss">
 article {
+  figure {
+    position: relative;
+    &:after{
+      content: "";
+      width: 100%;
+      height: 0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transition: ease 0.4s;
+    }
+  }
   &:hover {
-    img {
-      scale: 1.2;
+    figure {
+      &::after{
+        height: 100%;
+        background: linear-gradient(rgba(0,0,0,0.001)  , rgba(0,0,0,0.3) , rgba(0,0,0,0.9));
+      }
+      img {
+        scale: 1.2;
+      }
     }
   }
 
@@ -70,8 +90,8 @@ article {
 
   figure {
     img {
-      aspect-ratio: 4/3;
-      object-fit: fill;
+      aspect-ratio: 2/1;
+      object-fit: cover;
       transition: 0.5s;
       height: 100%;
       width: 100%;

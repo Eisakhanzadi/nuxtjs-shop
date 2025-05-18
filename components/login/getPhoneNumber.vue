@@ -8,7 +8,6 @@ const input = ref<HTMLInputElement | null>(null)
 
 function handleSubmit() {
   if (phoneNumber.value.length != 11 || (phoneNumber.value[0] != 0 || phoneNumber.value[1] != 9)) {
-    console.log(phoneNumber.value.length)
     $toast('شماره وارد شده صحیح نمیباشد', {type: 'error'});
   } else {
     loginUser()

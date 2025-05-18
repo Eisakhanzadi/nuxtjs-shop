@@ -2,6 +2,9 @@
 import {useProductsStore} from "~/stores/products";
 import ColorOptions from "~/components/colorOptions.vue";
 import Multiselect from "~/components/multiselect.vue";
+import {number} from "zod";
+import {getBindingIdentifiers} from "@babel/types";
+import keys = getBindingIdentifiers.keys;
 
 const route = useRoute()
 const router = useRouter()
@@ -35,6 +38,27 @@ function closeModal(): void {
 function changeFilter(){
   router.push({query:{...route.query ,sort:filterMenu.value}})
 }
+function handleQueryChange(query:{[key:string]:string|boolean|number}){
+  const queries = {
+    page:query.page,
+    sort:query.sort,
+    flash_id:query.flash_id,
+    max_price:query.max_price,
+    min_price:query.min_price,
+    available:query.available,
+    category_id:query.category_id,
+    // createAttributes(){
+    //   const obj = {}
+    //   const arr:Array<number|string> =query.size.split(',')
+    //       arr.forEach(size => obj.attribute_value_id = size)
+    // }
+  }
+  console.log(queries)
+}
+watch(()=>route.query, async(newVal:{[keys:string]:any}, oldVal) => {
+  handleQueryChange(newVal)
+})
+  // await store.fetchCategories(newVal)
 </script>
 
 <template>

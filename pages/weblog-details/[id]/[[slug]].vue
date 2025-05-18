@@ -166,7 +166,7 @@ const comments = [
               <img :src="weblogDetails?.post?.image?.url" class="w-full" :alt="weblogDetails?.post?.title">
             </figure>
           </div>
-          <div class="content-body" v-if="weblogDetails?.post?.body" v-html="weblogDetails?.post?.body"></div>
+          <div class="content-body py-5 lg:py-7" v-if="weblogDetails?.post?.body" v-html="weblogDetails?.post?.body"></div>
           <div class="social-apps-group flex justify-between items-center py-5 px-3 mt-3 border border-b-0 border-x-0 ">
             <p class="text-xs font-bold">اشتراک گذاری مطالب</p>
             <nav>
