@@ -8,7 +8,7 @@ const {menus} = defineProps({
 </script>
 
 <template>
-<div class="bg-white z-50 mega-menu p-5 rounded-xl shadow-lg" v-if="menus?.length">
+<div class="bg-white z-50 mega-menu p-5 rounded-xl shadow-lg overflow-y-auto" v-if="menus?.length">
   <div class="h-full">
     <mega-menu-create-menu-items :menus="menus"/>
   </div>

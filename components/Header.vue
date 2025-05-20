@@ -1,8 +1,13 @@
 <script setup lang="ts">
 import {SwiperSlide} from "swiper/vue";
 import {useGetUserStore, useProductsStore} from "#imports";
+import {useHeaderStore} from "~/stores/header";
+
 const router = useRouter()
 const {$toast} = useNuxtApp()
+const menuStore = useHeaderStore()
+await menuStore.fetchHeaderMenu()
+const menus = computed(() => menuStore.getMenus)
 const storeProducts = useProductsStore()
 const userStore = useGetUserStore()
 const {public: {baseUrl}} = useRuntimeConfig()
@@ -14,12 +19,9 @@ onBeforeMount(async () => {
 
 const newProducts = computed(() => storeProducts.getNewProducts)
 const user = computed(() => userStore.getUserStatus)
-const {data} = await useFetch(`${baseUrl}/header`)
-const menus = ref<{ [key: string]: any }[]>(data.value.menus)
 const header = ref<HTMLHeadElement>()
 const showSearchBox = ref<boolean>(false)
 const showLogin = ref<boolean>(false)
-console.log(menus)
 if (process.client) {
   window.addEventListener("scroll", () => {
     let scrollTop: string | number = window.scrollY;
@@ -52,8 +54,9 @@ const sliderConfig = {
     spaceBetween: 20,
   },
 }
+
 function handleFav(): void {
-  user.value?.isLogin ? router.push({path:'/user-panel/favorites'}) : $toast( 'برای ورود به این قسمت ابتدا لاگین شوید' ,{type:'warning'} )
+  user.value?.isLogin ? router.push({path: '/user-panel/favorites'}) : $toast('برای ورود به این قسمت ابتدا لاگین شوید', {type: 'warning'})
 }
 </script>
 
@@ -69,16 +72,22 @@ function handleFav(): void {
         <div>
           <nav class=" hidden lg:block">
             <ul class="flex gap-3">
-              <li v-for="item in menus" :key="item.name">
-
-                <link-resolver :item="item">
-                  <span>{{ item.title }}</span>
-                  <span class="relative top-0.5" v-if="item.children?.length"><icons-angle/></span>
-                </link-resolver>
-                <div v-if="item.children?.length" class="mega-menu-container absolute top-20 right-0 w-full z-50  ">
-                  <megaMenu class="" :menus="item.children"/>
-                </div>
-              </li>
+              <template v-if="menus?.length && !menuStore.loading">
+                <li v-for="item in menus" :key="item.id">
+                  <link-resolver :item="item">
+                    <span>{{ item.title }}</span>
+                    <span class="relative top-0.5" v-if="item.children?.length"><icons-angle/></span>
+                  </link-resolver>
+                  <div v-if="item.children?.length" class="mega-menu-container absolute top-20 right-0 w-full z-50  ">
+                    <megaMenu class="" :menus="item.children"/>
+                  </div>
+                </li>
+              </template>
+              <template v-else>
+                <li v-for="item in 5" :key="item">
+                  <loader-skeleton class="w-16 h-4"/>
+                </li>
+              </template>
             </ul>
           </nav>
         </div>
@@ -126,7 +135,7 @@ function handleFav(): void {
   </header>
   <transition-group name="show-modal">
     <modal-backdrop @close-modal="showLogin = false" v-if="showLogin" classes="w-full lg:w-[500px]">
-        <login @close="showLogin = false"/>
+      <login @close="showLogin = false"/>
     </modal-backdrop>
   </transition-group>
 </template>
