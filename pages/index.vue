@@ -9,7 +9,7 @@ const weblogStore = useWeblogStore()
 await store.fetchHome()
 await weblogStore.fetchWeblogList()
 
-const posts = computed(() => weblogStore.getWeblogList.mostViews)
+const posts = computed(() => weblogStore.getWeblogList?.posts?.data)
 const homeData = computed(() => store.getHome)
 const mostSales = computed(() => store.getMostSales)
 const mostDiscount = computed(() => store.getMostDiscount)
