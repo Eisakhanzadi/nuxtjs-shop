@@ -6,19 +6,20 @@ async function searchByDelay() {
   clearTimeout(timer.value)
   timer.value = setTimeout(() => {
     if (searchParams.value.length > 0) {
-      // fetchSearchWeblog()
-      emit('searchItem' , searchParams.value)
+      emit('searchItem' , searchParams.value.trim())
+    }else{
+      emit('searchItem' , "")
     }
-  }, 500)
+  }, 700)
 }
 
 </script>
 
 <template>
   <div class="search-box ">
-    <form action="" @submit.prevent="">
+    <form action="" @submit.prevent="emit('searchItem' , searchParams)">
       <div class="input-group border  overflow-hidden flex items-center">
-        <input @input="searchByDelay" v-model="searchParams" type="text" placeholder="دنبال چی میگردی ... ؟"
+        <input @input="searchByDelay" v-model.trim="searchParams" type="text" placeholder="دنبال چی میگردی ... ؟"
                class="w-full text-sm p-2 outline-0 bg-inherit placeholder:text-xs text-center caret-gray-600">
         <button class="p-1.5">
           <icons-search/>
