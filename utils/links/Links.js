@@ -7,7 +7,7 @@ export default [{
         linkable_type: 'Modules\\Blog\\Entities\\Post',
     },
     {
-        routerName: 'product-category',
+        routerName: 'products',
         routerParams: 'category',
         routerQuery: '',
         routerSlug: 'slug',
