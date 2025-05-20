@@ -9,39 +9,67 @@ const router = useRouter()
 const showGridItemCount = ref<number | string>(3)
 const filterSize = ref<HTMLElement | null>(null)
 const showModal = ref<boolean>(false)
-const filterMenu = ref<string>("most_visited")
-const breadcrumb:{[key:string]:string}[] =[
+const filterMenu = ref<string>(route.query?.sort ?? "most_visited")
+const breadcrumb: { [key: string]: string }[] = [
   {
-    name:"لیست محصولات",
-    url:"/"
+    name: "لیست محصولات",
+    url: "/"
   }
 ]
 
 const store = useProductsStore()
-onBeforeMount(async () => {
-  await store.fetchProducts()
-  await store.fetchProductsColorsFilter()
-  await store.fetchCategories()
-})
+await callProducts(route?.query)
+
+await store.fetchCategories()
 const products = computed(() => store.getProducts)
 const categories = computed(() => store.getCategories)
-
+const colors = computed(() => store.getColors)
+if(!colors.value?.length){
+  await store.fetchProductsColorsFilter()
+}
 function closeModal(): void {
   showModal.value = false
 }
 
 
-
-function changeFilter(){
-  router.push({query:{...route.query ,sort:filterMenu.value}})
+function changeFilter() {
+  router.push({query: {...route.query, sort: filterMenu.value}})
 }
+
+async function callProducts(query: { [key: string]: any }) {
+  const q = {
+    available: query.available,
+    page: query.page,
+    category_id: query.category_id,
+    sort: query.sort,
+    title: query.title,
+  }
+  if (query.size) {
+    query.size?.split(',').forEach(size => {
+      q['attribute_value_id[]'] = Number(size)
+    })
+  }
+  if (query.clor) {
+    query.color?.split(',').forEach((color: string) => {
+      q['color_range_ids[]'] = Number(color)
+    })
+  }
+  for (let key in q) {
+    q[key] == "" ? delete q[key] : ""
+  }
+  await store.fetchProducts(q)
+}
+
+watch(() => route.query, (newVal: { [key: string]: any }) => {
+  callProducts(newVal)
+})
 </script>
 
 <template>
   <section>
-    <LazyBreadcrumb :data="breadcrumb" />
-    <section class="container mx-auto grid grid-cols-4 gap-5 py-10" v-if="products">
-      <aside class="col-span-1 hidden lg:flex flex-col  gap-4">
+    <LazyBreadcrumb :data="breadcrumb"/>
+    <section class="container mx-auto grid grid-cols-4 gap-5 py-10">
+      <aside class="col-span-1 hidden lg:flex flex-col gap-4">
         <section class="box-shadow p-5 ">
           <div>
             <p class="text-base flex justify-center items-center gap-2 border-b pb-3">
@@ -53,7 +81,10 @@ function changeFilter(){
             <form action="">
               <div class="border rounded px-1">
                 <select class="w-full bg-transparent py-2 text-sm broder outline-0 rounded line-clamp-1">
-                  <option v-for="item in categories[0].children" class="text-sm text-gray-500 line-clamp-1 hover:bg-red-500" :key="item.id" :value="item">{{item.title}}</option>
+                  <option v-for="item in categories[0].children"
+                          class="text-sm text-gray-500 line-clamp-1 hover:bg-red-500" :key="item.id" :value="item">
+                    {{ item.title }}
+                  </option>
                 </select>
               </div>
             </form>
@@ -61,7 +92,7 @@ function changeFilter(){
         </section>
         <section>
           <div class="p-5 box-shadow">
-          <form-search @search-item=""/>
+            <form-search @search-item="router.push({query: {...route.query,title:$event}})"/>
           </div>
         </section>
         <section class="box-shadow p-5 overflow-hidden transition ease-in duration-300" ref="filterSize">
@@ -91,11 +122,13 @@ function changeFilter(){
                 </button>
               </div>
             </summary>
-            <div v-if="!store.loading && products?.color_ranges?.length">
-              <form-product-filter-color  @get-color="console.log($event)" :data="products?.color_ranges"/>
-              <div @click="showModal = true" class="flex items-center justify-between cursor-pointer bg-[rgba(0,0,0,0.05)] px-2 py-3.5 mt-3 rounded">
+            <div v-if="!store.loading && colors?.length">
+              <form-product-filter-color :data="colors"/>
+              <div @click="showModal = true"
+                   class="flex items-center justify-between cursor-pointer bg-[rgba(0,0,0,0.05)] px-2 py-3.5 mt-3 rounded">
                 <p>
-                  <span class="inline-block font-bold text-center text-sm w-5 h-5 border-2 border-gray-800 rounded-full ml-2">!</span>
+                  <span
+                      class="inline-block font-bold text-center text-sm w-5 h-5 border-2 border-gray-800 rounded-full ml-2">!</span>
                   <span>جزییات رنگ</span>
                 </p>
                 <icons-angle class="rotate-90"/>
@@ -113,23 +146,25 @@ function changeFilter(){
         </section>
         <section></section>
       </aside>
-      <main class="col-span-3 grid gap-5 ">
-        <section class="col-span-1 flex items-center justify-between gap-3 ">
+      <main v-if="products" :class="{'!flex flex-col w-full':!products?.products?.data?.length && !store.loading}" class="col-span-4 lg:col-span-3 grid gap-5 items-start ">
+        <section class="col-span-1 flex items-center justify-between gap-3 w-full ">
           <div class="flex gap-3">
             <form-items-show-count
+                class="hidden lg:flex"
                 @change-count="showGridItemCount = $event"
             />
             <form-ckeckbox @getStatus="router.replace({query:{...route.query,available:$event}})"/>
           </div>
           <div class="flex items-center gap-1.5">
             <span>فیلتر : </span>
-            <select class="rounded text-sm border-1 outline-0 py-1.5 pr-2 pl-14" v-model="filterMenu" @change="changeFilter">
-              <option class="text-sm"  value="most_visited"> پربازدیدترین </option>
-              <option class="text-sm"  value="most_discount">  بیشترین تخیف </option>
-              <option class="text-sm"  value="newest"> ویژه </option>
-              <option class="text-sm"  value="top_sales"> پر فروش ترین </option>
-              <option class="text-sm"  value="high_to_low"> گران ترین </option>
-              <option class="text-sm"  value="low_to_high"> ارزان ترین </option>
+            <select class="rounded text-xs border-1 outline-0 py-1.5 pr-2 pl-14" v-model="filterMenu"
+                    @change="changeFilter">
+              <option class="text-xs" value="most_visited"> پربازدیدترین</option>
+              <option class="text-xs" value="most_discount"> بیشترین تخیف</option>
+              <option class="text-xs" value="newest"> ویژه</option>
+              <option class="text-xs" value="top_sales"> پر فروش ترین</option>
+              <option class="text-xs" value="high_to_low"> گران ترین</option>
+              <option class="text-xs" value="low_to_high"> ارزان ترین</option>
             </select>
 
           </div>
@@ -147,10 +182,14 @@ function changeFilter(){
             />
           </template>
           <loader-product-card
-              v-else
+              v-else-if="store.loading"
               v-for="item in 9 "
               :key="item"
           />
+        </section>
+        <div v-if="!products?.products?.data?.length && !store.loading" class="p-5 rounded h-fit bg-white w-full"><p class=" text-base text-center lg:text-lg text-rose-500">محصولی یافت نشد .</p></div>
+        <section v-if="Number(store?.lastPage) > 1" class="flex justify-center">
+          <pagination :last-page="Number(store.lastPage)"/>
         </section>
       </main>
       <transition name="show-modal">
@@ -163,21 +202,23 @@ function changeFilter(){
 </template>
 
 <style scoped>
-.show-modal-enter-active{
-  animation: show-modal 0.3s forwards ease ;
+.show-modal-enter-active {
+  animation: show-modal 0.3s forwards ease;
 }
+
 .show-modal-leave-active {
-  animation: show-modal 0.3s reverse forwards ease ;
+  animation: show-modal 0.3s reverse forwards ease;
 }
 
 @keyframes show-modal {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
+
 @media screen and (max-width: 768px) {
   .products-items {
     display: grid;
