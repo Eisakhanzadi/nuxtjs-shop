@@ -103,3 +103,59 @@ button{
 button:active{
     transform: scale(0.98);
 }
+
+/*start pagination*/
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    & > li.page-item {
+        width: 30px;
+        height: 30px;
+        border-radius: 3px;
+
+        :is(&:first-child , &:last-child) {
+            background: var(--color-dark-primary) !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & > a {
+                color: white;
+            }
+        }
+
+        &:not(:first-child , :last-child , .active) {
+            background: white;
+        }
+
+        &.disabled:last-child, &.disabled:first-child {
+            display: none;
+        }
+
+        &.active {
+            background: var(--color-666) !important;
+            box-shadow: 0 10px 10px rgba( 0,0,0,0.1) !important;
+            a {
+                color: white;
+            }
+        }
+
+        & > .page-link {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--color-999);
+            font-size: 13px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/*end pagination*/
